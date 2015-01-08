@@ -26,3 +26,4 @@
 \contentsline {section}{\numberline {4.1}More info}{17}
 \contentsline {chapter}{Appendix A: The First Appendix}{19}
 \contentsline {chapter}{Appendix B: The Second Appendix, for Fun}{21}
+\contentsline {chapter}{References}{23}
