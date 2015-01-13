@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JAN 2015 10:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 JAN 2015 16:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,12 +351,29 @@ Non-PDF special ignored!
 Chapter 1.
 [3]
 
+Package natbib Warning: Citation `reedweb:2007' on page 4 undefined on input li
+ne 38.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]) (./math.tex [5] [6
+[4]
+
+Package natbib Warning: Citation `noble:2002' on page 5 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `noble:2002' on page 5 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `reedweb:2007' on page 5 undefined on input li
+ne 47.
+
+) (./math.tex [5] [6
 
 ]
 Chapter 2.
@@ -388,7 +405,7 @@ tp : / / www . lecb . ncifcrf . gov / []toms / latex .
 Chapter 3.
 [11] [12
 
-] [13] <./Figs/subdivision.pdf, id=78, 220.825pt x 89.33376pt>
+] [13] <./Figs/subdivision.pdf, id=79, 220.825pt x 89.33376pt>
 File: ./Figs/subdivision.pdf Graphic file (type pdf)
 
 <use ./Figs/subdivision.pdf>
@@ -424,37 +441,41 @@ Appendix A.
 Appendix B.
 ) [21] [22
 
-] (./thesis.bbl [23
+] (./thesis.bbl)
 
-]) [24] (./thesis.aux) ) 
+Package natbib Warning: There were undefined citations.
+
+[23
+
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 3500 strings out of 493488
- 45741 string characters out of 3141326
- 138714 words of memory out of 3000000
- 6691 multiletter control sequences out of 15000+200000
- 13612 words of font info for 56 fonts, out of 3000000 for 9000
+ 3459 strings out of 493488
+ 44882 string characters out of 3141326
+ 138179 words of memory out of 3000000
+ 6649 multiletter control sequences out of 15000+200000
+ 13920 words of font info for 57 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,17n,45p,881b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl1
-2.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb>
-Output written on thesis.pdf (30 pages, 228232 bytes).
+ 38i,17n,45p,881b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (29 pages, 224146 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 188 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  12 words of extra memory for PDF output out of 10000 (max. 10000000)
 

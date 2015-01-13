@@ -1,7 +1,5 @@
 \contentsline {chapter}{Introduction}{1}
-\contentsline {section}{\numberline {0.1}Why use it?}{1}
-\contentsline {section}{\numberline {0.2}Who should use it?}{1}
-\contentsline {chapter}{Chapter 1: The First}{3}
+\contentsline {chapter}{Chapter 1: The Gray-Scott Model}{3}
 \contentsline {section}{\numberline {1.1}References, Labels, Custom Commands and Footnotes}{3}
 \contentsline {subsection}{\numberline {1.1.1}References and Labels}{3}
 \contentsline {subsection}{\numberline {1.1.2}Custom Commands}{3}
