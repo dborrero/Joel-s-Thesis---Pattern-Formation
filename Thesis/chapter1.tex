@@ -1,10 +1,21 @@
-\chapter{The Gray-Scott Model}
-	% Add some filler about Gray-Scott here
-	The Gray-Scott system models the reaction of two generic chemical species, $U$ and $V$, whose concentration in space is represented by $u$ and $v$ respectively. The two chemicals react and diffuse through space according to Eq.~\ref{eq:gs-chem}.
+\chapter{Reaction-Diffusion Systems}
+
+	Reaction-diffusion (RD) systems are merely models that determine how concentrations of substances change in space. These systems are driven by two processes: chemical reaction and spatial diffusion. RD systems are partial differential equations, the most basic of which might look something like \refeq{eq:KPP}. This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u$ is a generic chemical species, $d$ is a diffusion coefficient, $\nabla^2 u$ is the Laplace operator, and $r(u)$ is a general reaction term.
 	\begin{align}
+		\frac{\partial u}{\partial t} = d \nabla^2 u + r(u)
+		\label{eq:KPP}
+	\end{align}
+What makes RD systems interesting, however, is the wide variety of patterns they form and how many of those patterns resemble patterns of nature such as spirals, stripes, and spots. In 1952, Alan Turing suggested that RD systems of morphogens may be able to explain the presence of spots or stripes on an organism \rf{turing_1952}. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature\footnote{Among others, Bard, 1974 or 1981; Murray, 1981; Meinhardt, 1982; Young, 1984; Meinhardt and Klinger, 1987; or Turk, 1991.}.
+	
+	
+\section{The Gray-Scott Model}
+	The Gray-Scott system models the reaction of two generic chemical species, $U$ and $V$, whose concentration in space is represented by $u$ and $v$ respectively. The model is based on the chemical reaction in \refeq{eq:gs-chem}.
+	\begin{align}
+	\begin{split}
 		U + 2V &\rightarrow 3V \\
 		V &\rightarrow P
 		\label{eq:gs-chem}
+	\end{split}
 	\end{align}
 $V$ is converted to inert product, $P$, which doesn't interfere with the reaction of the system. $V$ appears on both sides of the chemical reaction and thus catalyzes its own production. Gray, Scott developed the following non-dimensional PDE:
 	\begin{align}
@@ -12,44 +23,5 @@ $V$ is converted to inert product, $P$, which doesn't interfere with the reactio
 		\frac{\partial v}{\partial t} & = d_v \nabla^2 v  + uv^2 - (f +k)v
 		\label{eq:gs}
 	\end{align}
-For simplicity, $d_u$, $d_v$, $f$, and $k$ are taken to be constants. The first term in each equation, $d_u \nabla^2$ and $d_v \nabla^2$, are the diffusion terms. The Laplace operator, $\nabla^2$, is responsible for the diffusion of each chemical in space (like the diffusion of heat in the more familiar heat equation) while the \textit{diffusion coefficients}, $d_u$ and $d_v$, govern the rate. The term $\pm uv^2$ is the  \textit{reaction term} which converts $U$ into $V$: an increase in $v$ is equal to the decrease in $u$, hence $+uv^2$ in the second equation. Since $U$ will eventually get used up to generate $V$, the term $f(1-u)$ is the \textit{replenishment term} which reintroduces chemical $U$ into the system ($u$ has a maximum value of 1). Similarly, chemical $V$ would increase without limit except for the \textit{diminishment term}, $(f+k)v$, which serves to remove chemical $V$ from the system. One can imagine this system as two chemicals interacting in a cell where the bloodstream carries chemicals in and out.
-
-
-%\chapter{The First}
-    	This is the first page of the first chapter. You may delete the contents of this chapter so you can add your own text; it's just here to show you some examples. 
+We see that both equations take the form of \refeq{eq:KPP} only they are coupled. For simplicity, $d_u$, $d_v$, $f$, and $k$ are taken to be constants. The first term in each equation, $d_u \nabla^2$ and $d_v \nabla^2$, are the diffusion terms. The Laplace operator, $\nabla^2$, is responsible for the diffusion of each chemical in space (like the diffusion of heat in the more familiar heat equation) while the \textit{diffusion coefficients}, $d_u$ and $d_v$, govern the rate. The $\pm uv^2$ term is the  \textit{reaction term} which converts $U$ into $V$: an increase in $v$ is equal to the decrease in $u$, hence $+uv^2$ in the second equation. Since $U$ will eventually get used up to generate $V$, the term $f(1-u)$ is the \textit{replenishment term} which reintroduces chemical $U$ into the system ($u$ has a maximum value of 1). Similarly, chemical $V$ would increase without limit except for the \textit{diminishment term}, $(f+k)v$, which serves to remove chemical $V$ from the system. One can imagine this system as two chemicals interacting in a cell where the bloodstream carries chemicals in and out.
 	
-\section{References, Labels, Custom Commands and Footnotes}
-It is easy to refer to anything within your document using the \texttt{label} and \texttt{ref} tags.  Labels must be unique and shouldn't use any odd characters; generally sticking to letters and numbers (no spaces) should be fine. Put the label on whatever you want to refer to, and put the reference where you want the reference. \LaTeX\ will keep track of the chapter, section, and figure or table numbers for you. 
-
-\subsection{References and Labels}
-Sometimes you'd like to refer to a table or figure, e.g. you can see in Figure \ref{subd2} that you can rotate figures . Start by labeling your figure or table with the label command (\verb=\label{labelvariable}=) below the caption (see the chapter on graphics and tables for examples). Then when you would like to refer to the table or figure, use the ref command (\verb=\ref{labelvariable}=). Make sure your label variables are unique; you can't have two elements named ``default." Also, since the reference command only puts the figure or table number, you will have to put  ``Table" or ``Figure" as appropriate, as seen in the following examples:
-
- As I showed in Table \ref{inheritance} many factors can be assumed to follow from inheritance. Also see the Figure \ref{subd} for an illustration.
- 
-\subsection{Custom Commands}\label{commands}
-Are you sick of writing the same complex equation or phrase over and over? 
-
-The custom commands should be placed in the preamble, or at least prior to the first usage of the command. The structure of the \verb=\newcommand= consists of the name of the new command in curly braces, the number of arguments to be made in square brackets and then, inside a new set of curly braces, the command(s) that make up the new command. The whole thing is sandwiched inside a larger set of curly braces. 
-
-% Note: you cannot use numbers in your commands!
-\newcommand{\hydro}{H$_2$SO$_4$}
-
-In other words, if you want to make a shorthand for H$_2$SO$_4$, which doesn't include an argument, you would write: \verb=\newcommand{\hydro}{H$_2$SO$_4$}= and then when you needed  to use the command you would type \verb=\hydro=. (sans verb and the equals sign brackets, if you're looking at the .tex version). For example: \hydro
-
-\subsection{Footnotes and Endnotes}
-	You might want to footnote something.\footnote{footnote text} Be sure to leave no spaces between the word immediately preceding the footnote command and the command itself. The footnote will be in a smaller font and placed appropriately. Endnotes work in much the same way. More information can be found about both on the CUS site.
-	
-\section{Bibliographies}
-	Of course you will need to cite things, and you will probably accumulate an armful of sources. This is why BibTeX was created. For more information about BibTeX and bibliographies, see our CUS site (\url{web.reed.edu/cis/help/latex/index.html})\footnote{\cite{reedweb:2007}}. There are three pages on this topic: {\it bibtex} (which talks about using BibTeX, at \url{/latex/bibtex.html}), {\it bibtexstyles} (about how to find and use the bibliography style that best suits your needs, at \url{/latex/bibtexstyles.html}) and {\it bibman} (which covers how to make and maintain a bibliography by hand, without BibTeX, at at \url{/latex/bibman.html}). The last page will not be useful unless you have only a few sources. There used to be APA stuff here, but we don't need it since I've fixed this with my apa-good natbib style file.
-	
-\subsection{Tips for Bibliographies}
-\begin{enumerate}
-\item Like with thesis formatting, the sooner you start compiling your bibliography for something as large as thesis, the better. Typing in source after source is mind-numbing enough; do you really want to do it for hours on end in late April? Think of it as procrastination.
-\item The cite key (a citation's label) needs to be unique from the other entries.
-\item When you have more than one author or editor, you need to separate each author's name by the word ``and'' e.g.\\ \verb+Author = {Noble, Sam and Youngberg, Jessica},+.
-\item Bibliographies made using BibTeX (whether manually or using a manager) accept LaTeX markup, so you can italicize and add symbols as necessary.
-\item To force capitalization in an article title or where all lowercase is generally used, bracket the capital letter in curly braces.
-\item You can add a Reed Thesis citation\footnote{\cite{noble:2002}} option. The best way to do this is to use the phdthesis type of citation, and use the optional ``type'' field to enter ``Reed thesis'' or ``Undergraduate thesis''. Here's a test of Chicago, showing the second cite in a row\footnote{\cite{noble:2002}} being different. Also the second time not in a row\footnote{\cite{reedweb:2007}} should be different. Of course in other styles they'll all look the same.
-\end{enumerate}
-\section{Anything else?}
-If you'd like to see examples of other things in this template, please contact CUS (email cus@reed.edu) with your suggestions. We love to see people using \LaTeX\ for their theses, and are happy to help.
