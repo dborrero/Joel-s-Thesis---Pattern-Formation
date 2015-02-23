@@ -31,10 +31,12 @@
 % Check out CTAN to see: http://www.ctan.org/
 %%
 \usepackage{graphicx,latexsym} 
+\usepackage{subcaption}
 \usepackage{amssymb,amsthm,amsmath}
 \usepackage{longtable,booktabs,setspace} 
 \usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
 \usepackage[hyphens]{url}
+\usepackage{hyperref}
 \usepackage{rotating}
 \usepackage{natbib}
 \usepackage{ifthen}
@@ -110,22 +112,22 @@
 % \doublespacing
 
 	\input{introduction}
-	
+
 	\input{chapter1}
 	
 	\input{chapter2}
 
-	\input{math}
+	%\input{math}
 
-	\input{tablesandgraphics}
+	%\input{tablesandgraphics}
 
-	\input{./conclusion/conclusion}
+	%\input{./conclusion/conclusion}
 
 %If you feel it necessary to include an appendix, it goes here.
 	\appendix
 
 	\input{AppendixA}
-	\input{appendixB}
+	%\input{appendixB}
 
 
 %This is where endnotes are supposed to go, if you have them.
@@ -135,7 +137,7 @@
 
 % if you're using bibtex, the next line forces every entry in the bibtex file to be included
 % in your bibliography, regardless of whether or not you've cited it in the thesis.
-  \nocite{*}
+  %\nocite{*}
 
 % Rename my bibliography to be called "Works Cited" and not "References" or ``Bibliography''
 % \renewcommand{\bibname}{Works Cited}
@@ -144,7 +146,7 @@
 %\bibliographystyle{plainnat}
 % replace ``plainnat'' with the style of choice. You can refer to files in the bsts or APA 
 % subfolder, e.g. 
-\bibliographystyle{APA/ScienceReedWeb}  % or
+\bibliographystyle{plain}  % or
 \bibliography{thesis}
  % Comment the above two lines and uncomment the next line to use biblatex-chicago.
  %\printbibliography[heading=bibintoc]

@@ -1,15 +1,16 @@
 \chapter{Reaction-Diffusion Systems}
 
-	Reaction-diffusion (RD) systems are merely models that determine how concentrations of substances change in space. These systems are driven by two processes: chemical reaction and spatial diffusion. RD systems are partial differential equations, the most basic of which might look something like \refeq{eq:KPP}. This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u$ is a generic chemical species, $d$ is a diffusion coefficient, $\nabla^2 u$ is the Laplace operator, and $r(u)$ is a general reaction term.
+	Reaction-diffusion (RD) systems are models that determine how concentrations of substances change in space. These systems are driven by two processes: chemical reaction and spatial diffusion. RD systems are partial differential equations, the most basic of which might look something like \refeq{eq:KPP}. This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u$ is a generic chemical species, $d$ is a diffusion coefficient, $\nabla^2 u$ is the Laplace operator, and $r(u)$ is a general reaction term.
 	\begin{align}
 		\frac{\partial u}{\partial t} = d \nabla^2 u + r(u)
 		\label{eq:KPP}
 	\end{align}
-What makes RD systems interesting, however, is the wide variety of patterns they form and how many of those patterns resemble patterns of nature such as spirals, stripes, and spots. In 1952, Alan Turing suggested that RD systems of morphogens may be able to explain the presence of spots or stripes on an organism \rf{turing_1952}. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature\footnote{Among others, Bard, 1974 or 1981; Murray, 1981; Meinhardt, 1982; Young, 1984; Meinhardt and Klinger, 1987; or Turk, 1991.}.
+What makes RD systems interesting, however, is the wide variety of patterns they form and how many of those patterns resemble patterns of nature such as spirals, stripes, and spots. In 1952, Alan Turing suggested that RD systems of morphogens may be able to explain the presence of spots or stripes on an organism\rf{turing_1952}. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature~\rf{bard_1974,bard_1981,murray_1981,meinhardt_1982,young_1984,turk_1991,witkin_1991}
+\footnote{Among others, Bard, 1974 or 1981; Murray, 1981; Meinhardt, 1982; Young, 1984; Meinhardt and Klinger, 1987; or Turk, 1991.}.
 	
 	
 \section{The Gray-Scott Model}
-	The Gray-Scott system models the reaction of two generic chemical species, $U$ and $V$, whose concentration in space is represented by $u$ and $v$ respectively. The model is based on the chemical reaction in \refeq{eq:gs-chem}.
+	The Gray-Scott system models the reaction of two generic chemical species, $U$ and $V$, whose concentration in space is represented by $u$ and $v$ respectively\rf{grayscott_1984}. The model is based on the chemical reaction in \refeq{eq:gs-chem}.
 	\begin{align}
 	\begin{split}
 		U + 2V &\rightarrow 3V \\
@@ -18,10 +19,88 @@ What makes RD systems interesting, however, is the wide variety of patterns they
 	\end{split}
 	\end{align}
 $V$ is converted to inert product, $P$, which doesn't interfere with the reaction of the system. $V$ appears on both sides of the chemical reaction and thus catalyzes its own production. Gray, Scott developed the following non-dimensional PDE:
-	\begin{align}
+	\begin{align}\label{eq:gs}
 		\frac{\partial u}{\partial t} & = d_u \nabla^2 u - uv^2 + f(1-u) \\
 		\frac{\partial v}{\partial t} & = d_v \nabla^2 v  + uv^2 - (f +k)v
-		\label{eq:gs}
 	\end{align}
 We see that both equations take the form of \refeq{eq:KPP} only they are coupled. For simplicity, $d_u$, $d_v$, $f$, and $k$ are taken to be constants. The first term in each equation, $d_u \nabla^2$ and $d_v \nabla^2$, are the diffusion terms. The Laplace operator, $\nabla^2$, is responsible for the diffusion of each chemical in space (like the diffusion of heat in the more familiar heat equation) while the \textit{diffusion coefficients}, $d_u$ and $d_v$, govern the rate. The $\pm uv^2$ term is the  \textit{reaction term} which converts $U$ into $V$: an increase in $v$ is equal to the decrease in $u$, hence $+uv^2$ in the second equation. Since $U$ will eventually get used up to generate $V$, the term $f(1-u)$ is the \textit{replenishment term} which reintroduces chemical $U$ into the system ($u$ has a maximum value of 1). Similarly, chemical $V$ would increase without limit except for the \textit{diminishment term}, $(f+k)v$, which serves to remove chemical $V$ from the system. One can imagine this system as two chemicals interacting in a cell where the bloodstream carries chemicals in and out.
-	
+
+The Grey-Scott system is particularly notable for the wide range of irregular patterns it produces. Previous analysis of the system by Pearson \rf{pearson_1993} identified at least 12 different pattern types, all of which occur at different points in $k, f$ parameter space. \refFig{fig:pearson} shows the 12 quantifiably different patterns observed in this system. The figures, which plot the concentration of chemical $U$ over a 256 by 256 grid, reveal the extremely variable behavior of this system\footnote{A concentration plot of $V$ would resemble the inverse of $U$ so only one is shown.}. One of the most compelling qualities of these patterns is their resemblance to patterns of nature, \eg $\kappa$ (\reffig{fig:kappa_sample}) looks like coral and $\lambda$ (\reffig{fig:lambda_sample}) resembles the growth of bacteria. Other patterns, like $\beta$ (\reffig{fig:beta_sample}), exhibit turbulence.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{Figs/alpha_sample.png}
+                \caption{$\alpha$}
+                \label{fig:alpha_sample}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{beta_sample.png}
+                \caption{$\beta$}
+                \label{fig:beta_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{gamma_sample.png}
+                \caption{$\gamma$}
+                \label{fig:gamma_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{delta_sample.png}
+                \caption{$\delta$}
+                \label{fig:delta_sample}
+        \end{subfigure} \hfill \\
+         \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{epsilon_sample.png}
+                \caption{$\epsilon$}
+                \label{fig:epsilon_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{zeta_sample.png}
+                \caption{$\zeta$}
+                \label{fig:zeta_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{eta_sample.png}
+                \caption{$\eta$}
+                \label{fig:eta_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{theta_sample.png}
+                \caption{$\theta$}
+                \label{fig:theta_sample}
+        \end{subfigure} \hfill \\
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{iota_sample.png}
+                \caption{$\iota$}
+                \label{fig:iota_sample}
+        \end{subfigure}
+         \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{kappa_sample.png}
+                \caption{$\kappa$}
+                \label{fig:kappa_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{lambda_sample.png}
+                \caption{$\lambda$}
+                \label{fig:lambda_sample}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{mu_sample.png}
+                \caption{$\mu$}
+                \label{fig:mu_sample}
+        \end{subfigure} \hfill
+        \caption{Patterns of chemical concentration $U$ identified in\rf{pearson_1993}. Each pattern, \reffig{fig:alpha_sample}---\reffig{fig:mu_sample}, is designated by a Greek letter which corresponds to the plot in \reffig{fig:fk_pspace}. Red and blue indicate $U=1$ and $U\approx 0.2$ respectively.}\label{fig:pearson}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\columnwidth]{fk_pspace}
+\caption{\label{fig:fk_pspace} The mapping of Greek letters in \reffig{fig:pearson} to their location in $k,f$ parameter space. R and B indicate that the system evolved to uniform red and blue states respectively. This figure also represents a phase diagram of the reaction kinetics. Between the solid and dotted line, the system is bistable for which there are two linearly stable steady states. As $f$ passes below the dotted line, the non-trivial steady state becomes unstable through Hopf bification giving stable periodic orbit for $k < 0.035$ and unstable for $k > 0.035$. The trivial state, ($U =1$, $V = 0$) exists for all $(f,k)$ outside the solid line\rf{pearson_1993}.}
+\end{center}
+\end{figure}
+
+\section{Numerical Solution}
+
+The system in \refeq{eq:gs} is solved by forward Euler integration of the discrete Laplacian obtained by the finite difference method. A spacial grid of $256 \times 256$ points constitutes the mesh with a time step of 1\footnote{\rf{pearson_1993} notes no qualitative differences on mesh sizes up to $1024 \times 1024$ and time steps as low as $0.01$.}. The system was initialized with the state $U=1$, $V=0$ with a $20 \times 20$ area located in the center perturbed with $U=0.5$, $V=0.25$. The $20 \times 20$ area is then further perturbed with 1\% random noise to catalyze the reaction.

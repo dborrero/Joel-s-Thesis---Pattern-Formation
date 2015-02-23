@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{bard_1974}
+Jonathan Bard and Ian Lauder.
+\newblock How well does turing's theory of morphogenesis work?
+\newblock {\em Journal of Theoretical Biology}, 45(2):501--531, 1974.
+
+\bibitem{bard_1981}
+Jonathan B.~L. Bard.
+\newblock A model for generating aspects of zebra and other mammalian coat
+  patterns.
+\newblock {\em Journal of Theoretical Biology}, 93(2):363--385, 1981.
+
+\bibitem{young_1984}
+Erik Dabelsteen, Karsten Buschard, Sen-Itiroh Hakomori, and William~W Young.
+\newblock Pattern of distribution of blood group antigens on human epidermal
+  cells during maturation.
+\newblock {\em Journal of Investigative Dermatology}, 82(1):13--17, 1984.
+
+\bibitem{grayscott_1984}
+P~Gray and SK~Scott.
+\newblock Autocatalytic reactions in the isothermal, continuous stirred tank
+  reactor: Oscillations and instabilities in the system a+ 2b→ 3b; b→ c.
+\newblock {\em Chemical Engineering Science}, 39(6):1087--1097, 1984.
+
+\bibitem{meinhardt_1982}
+Hans Meinhardt and Hans Meinhardt.
+\newblock {\em Models of biological pattern formation}, volume~6.
+\newblock Academic Press London, 1982.
+
+\bibitem{murray_1981}
+JD~Murray.
+\newblock On pattern formation mechanisms for lepidopteran wing patterns and
+  mammalian coat markings.
+\newblock {\em Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, 295(1078):473--496, 1981.
+
+\bibitem{pearson_1993}
+John~E. Pearson.
+\newblock Complex patterns in a simple system.
+\newblock {\em Science}, 261(5118):189--192, 1993.
+
+\bibitem{turk_1991}
+Greg Turk.
+\newblock Generating textures on arbitrary surfaces using reaction-diffusion.
+\newblock {\em SIGGRAPH Comput. Graph.}, 25(4):289--298, 1991.
+
+\bibitem{witkin_1991}
+Andrew Witkin and Michael Kass.
+\newblock Reaction-diffusion textures.
+\newblock {\em SIGGRAPH Comput. Graph.}, 25(4):299--308, 1991.
+
+\end{thebibliography}
