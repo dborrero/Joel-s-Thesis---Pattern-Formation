@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  22 FEB 2015 21:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  22 FEB 2015 21:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,7 @@ Package pdftex.def Info: ./Figs/fk_pspace.pdf used on input line 99.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -668,23 +668,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 
-       [4] (./chapter2.tex [5 <./Figs/alpha_sample.png> <./Figs/beta_sample.png
- (PNG copy)> <./Figs/gamma_sample.png (PNG copy)> <./Figs/delta_sample.png (PNG
- copy)> <./Figs/epsilon_sample.png> <./Figs/zeta_sample.png> <./Figs/eta_sample
-.png (PNG copy)> <./Figs/theta_sample.png (PNG copy)> <./Figs/iota_sample.png (
-PNG copy)> <./Figs/kappa_sample.png (PNG copy)> <./Figs/lambda_sample.png (PNG 
-copy)> <./Figs/mu_sample.png (PNG copy)>] [6 <./Figs/fk_pspace.pdf>]
+l.107 
+       [4]) (./chapter2.tex [5 <./Figs/alpha_sample.png> <./Figs/beta_sample.pn
+g (PNG copy)> <./Figs/gamma_sample.png (PNG copy)> <./Figs/delta_sample.png (PN
+G copy)> <./Figs/epsilon_sample.png> <./Figs/zeta_sample.png> <./Figs/eta_sampl
+e.png (PNG copy)> <./Figs/theta_sample.png (PNG copy)> <./Figs/iota_sample.png 
+(PNG copy)> <./Figs/kappa_sample.png (PNG copy)> <./Figs/lambda_sample.png (PNG
+ copy)> <./Figs/mu_sample.png (PNG copy)>] [6 <./Figs/fk_pspace.pdf>]
 Chapter 2.
 [7
 
-] <Figs/homology1d.pdf, id=199, 198.7425pt x 72.27pt>
+] <Figs/homology1d.pdf, id=200, 198.7425pt x 72.27pt>
 File: Figs/homology1d.pdf Graphic file (type pdf)
 
 <use Figs/homology1d.pdf>
 Package pdftex.def Info: Figs/homology1d.pdf used on input line 20.
 (pdftex.def)             Requested size: 86.72267pt x 31.53642pt.
- <Figs/homology2d.pdf, id=201, 369.38pt x 291.0875pt>
+ <Figs/homology2d.pdf, id=202, 369.38pt x 291.0875pt>
 File: Figs/homology2d.pdf Graphic file (type pdf)
 
 <use Figs/homology2d.pdf>
@@ -739,10 +739,10 @@ ve/2012/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (19 pages, 2507547 bytes).
+Output written on thesis.pdf (19 pages, 2491190 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
  49 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

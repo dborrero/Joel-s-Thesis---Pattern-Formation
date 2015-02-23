@@ -103,4 +103,15 @@ The Grey-Scott system is particularly notable for the wide range of irregular pa
 
 \section{Numerical Solution}
 
-The system in \refeq{eq:gs} is solved by forward Euler integration of the discrete Laplacian obtained by the finite difference method. A spacial grid of $256 \times 256$ points constitutes the mesh with a time step of 1\footnote{\rf{pearson_1993} notes no qualitative differences on mesh sizes up to $1024 \times 1024$ and time steps as low as $0.01$.}. The system was initialized with the state $U=1$, $V=0$ with a $20 \times 20$ area located in the center perturbed with $U=0.5$, $V=0.25$. The $20 \times 20$ area is then further perturbed with 1\% random noise to catalyze the reaction.
+The system in \refeq{eq:gs} is solved by forward Euler integration of the discrete Laplacian obtained by the finite difference method. A spacial grid of $256 \times 256$ points constitutes the mesh with a time step of 1\footnote{\rf{pearson_1993} notes no qualitative differences on mesh sizes up to $1024 \times 1024$ and time steps as low as $0.01$.}. The system was initialized with the state $U=1$, $V=0$ with a $20 \times 20$ area located in the center perturbed with $U=0.5$, $V=0.25$. The $20 \times 20$ area is then further perturbed with 1\% random noise to catalyze the reaction. The patterns in \reffig{fig:pearson} were generated this method and depict the concentration of chemical $U$. A plot of chemical $V$ would appear as the inverse.
+
+
+
+
+
+
+
+
+
+
+
