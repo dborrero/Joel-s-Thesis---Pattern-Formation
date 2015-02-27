@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bard_1974}
 Jonathan Bard and Ian Lauder.
@@ -17,11 +17,21 @@ Erik Dabelsteen, Karsten Buschard, Sen-Itiroh Hakomori, and William~W Young.
   cells during maturation.
 \newblock {\em Journal of Investigative Dermatology}, 82(1):13--17, 1984.
 
+\bibitem{gameiro_2005}
+Marcio~Fuzeto Gameiro.
+\newblock Topological analysis of patterns.
+\newblock 2005.
+
 \bibitem{grayscott_1984}
 P~Gray and SK~Scott.
 \newblock Autocatalytic reactions in the isothermal, continuous stirred tank
   reactor: Oscillations and instabilities in the system a+ 2b→ 3b; b→ c.
 \newblock {\em Chemical Engineering Science}, 39(6):1087--1097, 1984.
+
+\bibitem{kaczynski_2007}
+Tomasz Kaczynski, Konstantin~Michael Mischaikow, and Marian Mrozek.
+\newblock {\em Computational homology}, volume 157.
+\newblock Springer Science \& Business Media, 2004.
 
 \bibitem{meinhardt_1982}
 Hans Meinhardt and Hans Meinhardt.
@@ -39,6 +49,12 @@ JD~Murray.
 John~E. Pearson.
 \newblock Complex patterns in a simple system.
 \newblock {\em Science}, 261(5118):189--192, 1993.
+
+\bibitem{turing_1952}
+A.~M. Turing.
+\newblock The chemical basis of morphogenesis.
+\newblock {\em Philosophical Transactions of the Royal Society of London.
+  Series B, Biological Sciences}, 237(641):37--72, 1952.
 
 \bibitem{turk_1991}
 Greg Turk.

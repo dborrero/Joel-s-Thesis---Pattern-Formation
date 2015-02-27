@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  22 FEB 2015 21:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 FEB 2015 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,6 +187,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip58
@@ -363,40 +380,46 @@ LaTeX Info: Redefining \cite on input line 694.
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup7
 )
-(./defthesis.tex) (./thesis.aux)
+(./defthesis.tex
+\c@thm=\count125
+\c@defn=\count126
+\c@conj=\count127
+\c@exmp=\count128
+\c@case=\count129
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 81.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count130
 \scratchdimen=\dimen137
 \scratchbox=\box33
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count128
+\MPscratchCnt=\count133
 \MPscratchDim=\dimen138
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -423,7 +446,7 @@ Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 80.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -431,52 +454,52 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 83.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 84.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 84.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 83.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 84.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 83.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 84.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 83.
+(Font)              scaled to size 12.50409pt on input line 84.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 83.
+(Font)              scaled to size 9.37807pt on input line 84.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 83.
+(Font)              scaled to size 7.29405pt on input line 84.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 83.
+(Font)              scaled to size 12.50409pt on input line 84.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 83.
+(Font)              scaled to size 9.37807pt on input line 84.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 83.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 83.
+(Font)              scaled to size 7.29405pt on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 84.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -492,7 +515,7 @@ Non-PDF special ignored!
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 95.
  (./thesis.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
@@ -535,10 +558,6 @@ l.1 \chapter
 
 ]
 Chapter 1.
-
-Package natbib Warning: Citation `turing_1952' on page 3 undefined on input lin
-e 8.
-
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 12.
 
@@ -549,7 +568,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.20 	\end{align}
-                  [3] <Figs/alpha_sample.png, id=116, 155.3805pt x 155.3805pt>
+                  [3] <Figs/alpha_sample.png, id=128, 155.3805pt x 155.3805pt>
 File: Figs/alpha_sample.png Graphic file (type png)
 
 <use Figs/alpha_sample.png>
@@ -564,77 +583,77 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 34.
 
-<./Figs/beta_sample.png, id=118, 258.9675pt x 258.9675pt>
+<./Figs/beta_sample.png, id=130, 258.9675pt x 258.9675pt>
 File: ./Figs/beta_sample.png Graphic file (type png)
 
 <use ./Figs/beta_sample.png>
 Package pdftex.def Info: ./Figs/beta_sample.png used on input line 40.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/gamma_sample.png, id=119, 258.9675pt x 258.9675pt>
+<./Figs/gamma_sample.png, id=131, 258.9675pt x 258.9675pt>
 File: ./Figs/gamma_sample.png Graphic file (type png)
 
 <use ./Figs/gamma_sample.png>
 Package pdftex.def Info: ./Figs/gamma_sample.png used on input line 45.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/delta_sample.png, id=120, 258.9675pt x 258.9675pt>
+<./Figs/delta_sample.png, id=132, 258.9675pt x 258.9675pt>
 File: ./Figs/delta_sample.png Graphic file (type png)
 
 <use ./Figs/delta_sample.png>
 Package pdftex.def Info: ./Figs/delta_sample.png used on input line 50.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/epsilon_sample.png, id=121, 155.3805pt x 155.3805pt>
+<./Figs/epsilon_sample.png, id=133, 155.3805pt x 155.3805pt>
 File: ./Figs/epsilon_sample.png Graphic file (type png)
 
 <use ./Figs/epsilon_sample.png>
 Package pdftex.def Info: ./Figs/epsilon_sample.png used on input line 55.
 (pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
 
-<./Figs/zeta_sample.png, id=122, 155.3805pt x 155.3805pt>
+<./Figs/zeta_sample.png, id=134, 155.3805pt x 155.3805pt>
 File: ./Figs/zeta_sample.png Graphic file (type png)
 
 <use ./Figs/zeta_sample.png>
 Package pdftex.def Info: ./Figs/zeta_sample.png used on input line 60.
 (pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
 
-<./Figs/eta_sample.png, id=123, 258.9675pt x 258.9675pt>
+<./Figs/eta_sample.png, id=135, 258.9675pt x 258.9675pt>
 File: ./Figs/eta_sample.png Graphic file (type png)
 
 <use ./Figs/eta_sample.png>
 Package pdftex.def Info: ./Figs/eta_sample.png used on input line 65.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/theta_sample.png, id=124, 258.9675pt x 258.9675pt>
+<./Figs/theta_sample.png, id=136, 258.9675pt x 258.9675pt>
 File: ./Figs/theta_sample.png Graphic file (type png)
 
 <use ./Figs/theta_sample.png>
 Package pdftex.def Info: ./Figs/theta_sample.png used on input line 70.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/iota_sample.png, id=125, 258.9675pt x 258.9675pt>
+<./Figs/iota_sample.png, id=137, 258.9675pt x 258.9675pt>
 File: ./Figs/iota_sample.png Graphic file (type png)
 
 <use ./Figs/iota_sample.png>
 Package pdftex.def Info: ./Figs/iota_sample.png used on input line 75.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/kappa_sample.png, id=126, 258.9675pt x 258.9675pt>
+<./Figs/kappa_sample.png, id=138, 258.9675pt x 258.9675pt>
 File: ./Figs/kappa_sample.png Graphic file (type png)
 
 <use ./Figs/kappa_sample.png>
 Package pdftex.def Info: ./Figs/kappa_sample.png used on input line 80.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/lambda_sample.png, id=127, 258.9675pt x 258.9675pt>
+<./Figs/lambda_sample.png, id=139, 258.9675pt x 258.9675pt>
 File: ./Figs/lambda_sample.png Graphic file (type png)
 
 <use ./Figs/lambda_sample.png>
 Package pdftex.def Info: ./Figs/lambda_sample.png used on input line 85.
 (pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
 
-<./Figs/mu_sample.png, id=128, 258.9675pt x 258.9675pt>
+<./Figs/mu_sample.png, id=140, 258.9675pt x 258.9675pt>
 File: ./Figs/mu_sample.png Graphic file (type png)
 
 <use ./Figs/mu_sample.png>
@@ -644,7 +663,7 @@ Package pdftex.def Info: ./Figs/mu_sample.png used on input line 90.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figs/fk_pspace.pdf, id=137, 220.11424pt x 238.50381pt>
+<./Figs/fk_pspace.pdf, id=149, 220.11424pt x 238.50381pt>
 File: ./Figs/fk_pspace.pdf Graphic file (type pdf)
 
 <use ./Figs/fk_pspace.pdf>
@@ -676,28 +695,45 @@ e.png (PNG copy)> <./Figs/theta_sample.png (PNG copy)> <./Figs/iota_sample.png
 (PNG copy)> <./Figs/kappa_sample.png (PNG copy)> <./Figs/lambda_sample.png (PNG
  copy)> <./Figs/mu_sample.png (PNG copy)>] [6 <./Figs/fk_pspace.pdf>]
 Chapter 2.
-[7
 
-] <Figs/homology1d.pdf, id=200, 198.7425pt x 72.27pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+]
+<Figs/homology1d.pdf, id=213, 198.7425pt x 72.27pt>
 File: Figs/homology1d.pdf Graphic file (type pdf)
-
-<use Figs/homology1d.pdf>
+ <use Figs/homology1d.pdf>
 Package pdftex.def Info: Figs/homology1d.pdf used on input line 20.
 (pdftex.def)             Requested size: 86.72267pt x 31.53642pt.
- <Figs/homology2d.pdf, id=202, 369.38pt x 291.0875pt>
-File: Figs/homology2d.pdf Graphic file (type pdf)
 
-<use Figs/homology2d.pdf>
+<Figs/homology2d.pdf, id=215, 369.38pt x 291.0875pt>
+File: Figs/homology2d.pdf Graphic file (type pdf)
+ <use Figs/homology2d.pdf>
 Package pdftex.def Info: Figs/homology2d.pdf used on input line 34.
 (pdftex.def)             Requested size: 260.17464pt x 205.03015pt.
 
-Underfull \vbox (badness 2503) has occurred while \output is active []
+[8 <./Figs/homology1d.pdf> <./Figs/homology2d.pdf>]
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 48.
 
- [8 <./Figs/homology1d.pdf> <./Figs/homology2d.pdf>]) (./AppendixA.tex [9] [10
 
-]
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+Underfull \vbox (badness 4060) has occurred while \output is active []
+
+ [9]
+[10] [11] <./Figs/boundaries.pdf, id=302, 233.87375pt x 127.47626pt>
+File: ./Figs/boundaries.pdf Graphic file (type pdf)
+
+<use ./Figs/boundaries.pdf>
+Package pdftex.def Info: ./Figs/boundaries.pdf used on input line 121.
+(pdftex.def)             Requested size: 216.81pt x 118.1821pt.
+) (./AppendixA.tex [12 <./Figs/boundaries.pdf>]
 Appendix A.
-) [11] [12
+) [13
+
+] [14
 
 ] (./thesis.bbl
 Missing character: There is no â in font pplr7t!
@@ -706,43 +742,43 @@ Missing character: There is no ’ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no † in font pplr7t!
 Missing character: There is no ’ in font pplr7t!
-)
+ [15
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-[13
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8C9CC073B319DD5EADDB04C62B900FEC;491.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+(rerunfilecheck)             Checksum: 98AAE03F22E69640CE87B4C4CE9A020C;634.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 8165 strings out of 493488
- 120211 string characters out of 3141326
- 216175 words of memory out of 3000000
- 11244 multiletter control sequences out of 15000+200000
- 39962 words of font info for 116 fonts, out of 3000000 for 9000
+ 8719 strings out of 493488
+ 126464 string characters out of 3141326
+ 226787 words of memory out of 3000000
+ 11761 multiletter control sequences out of 15000+200000
+ 42024 words of font info for 126 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,14n,45p,1164b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,14n,45p,1164b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (19 pages, 2491190 bytes).
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb>
+Output written on thesis.pdf (22 pages, 2530934 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

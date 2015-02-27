@@ -7,6 +7,8 @@
 \newcommand{\refRefs}[1] {Refs.~\cite{#1}}
 \newcommand{\refeq}  [1] {(\ref{#1})}
 \newcommand{\refeqs} [2]{(\ref{#1}--\ref{#2})}
+\newcommand{\refex}  [1] {example~(\ref{#1})}
+\newcommand{\refEx}  [1] {Example~(\ref{#1})}
 \newcommand{\reffig} [1] {figure~\ref{#1}}
 \newcommand{\reffigs} [2] {figures~\ref{#1} and~\ref{#2}}
 \newcommand{\refFig} [1] {Figure~\ref{#1}}
@@ -27,6 +29,25 @@
 
 %%%% SYMBOLS %%%%
 \newcommand{\ReN}[1]{\ensuremath{Re}} % Reynolds number
+\newcommand{\Hh}{\mathbb{H}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\proj}{\mathbb{P}}
+\newcommand{\G}{\mathbb{G}}
+
+% homology commands
+\newcommand{\K}{\mathcal{K}}
+\newcommand{\Kd}{\K^{d}}
+\newcommand{\emb}[1]{\mathord{\mr{emb}(#1)}}
+\newcommand{\wh}[1]{\widehat{#1}}
+\newcommand{\Qhat}{\wh{Q}}
+
+\newcommand{\mr}{\mathrm}
+\newcommand{\ith}{\textsuperscript{th}}
 
 %%%% ABBREVIATIONS %%%%%
 \newcommand{\etc}{{etc.}}       % APS
@@ -34,6 +55,25 @@
 \newcommand{\ie}{{i.e.}}        % APS
 \newcommand{\cf}{{\em cf.\ }}     % APS
 \newcommand{\eg}{{e.g.\ }}        % APS, OUP, hard space '\eg\ NextWord'
+
+%%%%% ENVIRONMENTS %%%%%
+\theoremstyle{plain}% default
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem*{cor}{Corollary}
+\newtheorem*{KL}{Klein?s Lemma}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{exmp}{Example}[section]
+
+\theoremstyle{remark}
+\newtheorem*{rem}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{case}{Case}
+
 
 %%%%% EDITING COMMANDS %%%%%
 \newcommand{\DB}[2]{$\footnotemark\footnotetext{DB #1: {\color{red}#2}}$} %date, comment
