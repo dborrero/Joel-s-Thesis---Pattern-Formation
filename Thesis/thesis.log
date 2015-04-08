@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 FEB 2015 21:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 APR 2015 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,57 +369,56 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box32
 \rot@mess@toks=\toks28
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip65
-\bibsep=\skip66
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count124
-)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup7
 )
 (./defthesis.tex
-\c@thm=\count125
-\c@defn=\count126
-\c@conj=\count127
-\c@exmp=\count128
-\c@case=\count129
-) (./thesis.aux)
+\c@thm=\count124
+\c@defn=\count125
+\c@conj=\count126
+\c@exmp=\count127
+\c@case=\count128
+) (./thesis.aux
+
+LaTeX Warning: Label `fig:beta_144' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:beta_144' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 81.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 83.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count129
 \scratchdimen=\dimen137
 \scratchbox=\box33
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\nofMPsegments=\count130
+\nofMParguments=\count131
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count133
+\MPscratchCnt=\count132
 \MPscratchDim=\dimen138
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -446,7 +445,7 @@ Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 83.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -454,52 +453,52 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 86.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 86.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 84.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 86.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 84.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 86.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 84.
+(Font)              scaled to size 12.50409pt on input line 86.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 84.
+(Font)              scaled to size 9.37807pt on input line 86.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 84.
+(Font)              scaled to size 7.29405pt on input line 86.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 84.
+(Font)              scaled to size 12.50409pt on input line 86.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 84.
+(Font)              scaled to size 9.37807pt on input line 86.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 84.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 84.
+(Font)              scaled to size 7.29405pt on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 86.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -515,7 +514,7 @@ Non-PDF special ignored!
 
 ]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 97.
  (./thesis.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
@@ -541,244 +540,451 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 10.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 10.
-)
-(./chapter1.texpdfTeX warning (ext4): destination with the same identifier (nam
-e{page.1}) has been already used, duplicate ignored
+
+<./Figs/alpha_v_grey.png, id=115, 155.3805pt x 155.3805pt>
+File: ./Figs/alpha_v_grey.png Graphic file (type png)
+
+<use ./Figs/alpha_v_grey.png>
+Package pdftex.def Info: ./Figs/alpha_v_grey.png used on input line 17.
+(pdftex.def)             Requested size: 130.08731pt x 130.08957pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 18.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 18.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 18.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 18.
+
+<./Figs/kappa_v_grey.png, id=117, 155.3805pt x 155.3805pt>
+File: ./Figs/kappa_v_grey.png Graphic file (type png)
+
+<use ./Figs/kappa_v_grey.png>
+Package pdftex.def Info: ./Figs/kappa_v_grey.png used on input line 22.
+(pdftex.def)             Requested size: 130.08731pt x 130.08957pt.
+
+<./Figs/alpha_v_fft.png, id=118, 193.6836pt x 193.6836pt>
+File: ./Figs/alpha_v_fft.png Graphic file (type png)
+
+<use ./Figs/alpha_v_fft.png>
+Package pdftex.def Info: ./Figs/alpha_v_fft.png used on input line 30.
+(pdftex.def)             Requested size: 130.08731pt x 130.0924pt.
+
+<./Figs/kappa_v_fft.png, id=119, 193.6836pt x 193.6836pt>
+File: ./Figs/kappa_v_fft.png Graphic file (type png)
+
+<use ./Figs/kappa_v_fft.png>
+Package pdftex.def Info: ./Figs/kappa_v_fft.png used on input line 35.
+(pdftex.def)             Requested size: 130.08731pt x 130.0924pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapter1.texpdfTeX warning (ext4): destination with the same identifier (n
+ame{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
             {Reaction-Diffusion Systems} [1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Reaction-Diffusion Systems} [2
-
 ]
-Chapter 1.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 12.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.20 	\end{align}
-                  [3] <Figs/alpha_sample.png, id=128, 155.3805pt x 155.3805pt>
-File: Figs/alpha_sample.png Graphic file (type png)
-
-<use Figs/alpha_sample.png>
-Package pdftex.def Info: Figs/alpha_sample.png used on input line 33.
-(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 34.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 34.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 34.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 34.
-
-<./Figs/beta_sample.png, id=130, 258.9675pt x 258.9675pt>
-File: ./Figs/beta_sample.png Graphic file (type png)
-
-<use ./Figs/beta_sample.png>
-Package pdftex.def Info: ./Figs/beta_sample.png used on input line 40.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/gamma_sample.png, id=131, 258.9675pt x 258.9675pt>
-File: ./Figs/gamma_sample.png Graphic file (type png)
-
-<use ./Figs/gamma_sample.png>
-Package pdftex.def Info: ./Figs/gamma_sample.png used on input line 45.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/delta_sample.png, id=132, 258.9675pt x 258.9675pt>
-File: ./Figs/delta_sample.png Graphic file (type png)
-
-<use ./Figs/delta_sample.png>
-Package pdftex.def Info: ./Figs/delta_sample.png used on input line 50.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/epsilon_sample.png, id=133, 155.3805pt x 155.3805pt>
-File: ./Figs/epsilon_sample.png Graphic file (type png)
-
-<use ./Figs/epsilon_sample.png>
-Package pdftex.def Info: ./Figs/epsilon_sample.png used on input line 55.
-(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
-
-<./Figs/zeta_sample.png, id=134, 155.3805pt x 155.3805pt>
-File: ./Figs/zeta_sample.png Graphic file (type png)
-
-<use ./Figs/zeta_sample.png>
-Package pdftex.def Info: ./Figs/zeta_sample.png used on input line 60.
-(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
-
-<./Figs/eta_sample.png, id=135, 258.9675pt x 258.9675pt>
-File: ./Figs/eta_sample.png Graphic file (type png)
-
-<use ./Figs/eta_sample.png>
-Package pdftex.def Info: ./Figs/eta_sample.png used on input line 65.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/theta_sample.png, id=136, 258.9675pt x 258.9675pt>
-File: ./Figs/theta_sample.png Graphic file (type png)
-
-<use ./Figs/theta_sample.png>
-Package pdftex.def Info: ./Figs/theta_sample.png used on input line 70.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/iota_sample.png, id=137, 258.9675pt x 258.9675pt>
-File: ./Figs/iota_sample.png Graphic file (type png)
-
-<use ./Figs/iota_sample.png>
-Package pdftex.def Info: ./Figs/iota_sample.png used on input line 75.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/kappa_sample.png, id=138, 258.9675pt x 258.9675pt>
-File: ./Figs/kappa_sample.png Graphic file (type png)
-
-<use ./Figs/kappa_sample.png>
-Package pdftex.def Info: ./Figs/kappa_sample.png used on input line 80.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/lambda_sample.png, id=139, 258.9675pt x 258.9675pt>
-File: ./Figs/lambda_sample.png Graphic file (type png)
-
-<use ./Figs/lambda_sample.png>
-Package pdftex.def Info: ./Figs/lambda_sample.png used on input line 85.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-<./Figs/mu_sample.png, id=140, 258.9675pt x 258.9675pt>
-File: ./Figs/mu_sample.png Graphic file (type png)
-
-<use ./Figs/mu_sample.png>
-Package pdftex.def Info: ./Figs/mu_sample.png used on input line 90.
-(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Figs/fk_pspace.pdf, id=149, 220.11424pt x 238.50381pt>
-File: ./Figs/fk_pspace.pdf Graphic file (type pdf)
-
-<use ./Figs/fk_pspace.pdf>
-Package pdftex.def Info: ./Figs/fk_pspace.pdf used on input line 99.
-(pdftex.def)             Requested size: 216.81pt x 234.92581pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Reaction-Diffusion Systems} [2 <./Figs/alpha_v_grey.png> <./Figs/k
+appa_v_grey.png> <./Figs/alpha_v_fft.png> <./Figs/kappa_v_fft.png>]
+Chapter 1.
+<./Figs/witkin.png, id=148, 846.16125pt x 621.32124pt>
+File: ./Figs/witkin.png Graphic file (type png)
+ <use ./Figs/witkin.png>
+Package pdftex.def Info: ./Figs/witkin.png used on input line 13.
+(pdftex.def)             Requested size: 346.89731pt x 254.71492pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 17.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 	\end{align}
+                  [3
+
+]
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 
-       [4]) (./chapter2.tex [5 <./Figs/alpha_sample.png> <./Figs/beta_sample.pn
-g (PNG copy)> <./Figs/gamma_sample.png (PNG copy)> <./Figs/delta_sample.png (PN
-G copy)> <./Figs/epsilon_sample.png> <./Figs/zeta_sample.png> <./Figs/eta_sampl
-e.png (PNG copy)> <./Figs/theta_sample.png (PNG copy)> <./Figs/iota_sample.png 
-(PNG copy)> <./Figs/kappa_sample.png (PNG copy)> <./Figs/lambda_sample.png (PNG
- copy)> <./Figs/mu_sample.png (PNG copy)>] [6 <./Figs/fk_pspace.pdf>]
-Chapter 2.
+l.32 
+      [4 <./Figs/witkin.png>]
+<Figs/alpha_sample.png, id=184, 155.3805pt x 155.3805pt>
+File: Figs/alpha_sample.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use Figs/alpha_sample.png>
+Package pdftex.def Info: Figs/alpha_sample.png used on input line 38.
+(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
 
- [7
+<./Figs/beta_sample.png, id=185, 258.9675pt x 258.9675pt>
+File: ./Figs/beta_sample.png Graphic file (type png)
+
+<use ./Figs/beta_sample.png>
+Package pdftex.def Info: ./Figs/beta_sample.png used on input line 45.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/gamma_sample.png, id=186, 258.9675pt x 258.9675pt>
+File: ./Figs/gamma_sample.png Graphic file (type png)
+
+<use ./Figs/gamma_sample.png>
+Package pdftex.def Info: ./Figs/gamma_sample.png used on input line 50.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/delta_sample.png, id=187, 258.9675pt x 258.9675pt>
+File: ./Figs/delta_sample.png Graphic file (type png)
+
+<use ./Figs/delta_sample.png>
+Package pdftex.def Info: ./Figs/delta_sample.png used on input line 55.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/epsilon_sample.png, id=188, 155.3805pt x 155.3805pt>
+File: ./Figs/epsilon_sample.png Graphic file (type png)
+
+<use ./Figs/epsilon_sample.png>
+Package pdftex.def Info: ./Figs/epsilon_sample.png used on input line 60.
+(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
+
+<./Figs/zeta_sample.png, id=189, 155.3805pt x 155.3805pt>
+File: ./Figs/zeta_sample.png Graphic file (type png)
+
+<use ./Figs/zeta_sample.png>
+Package pdftex.def Info: ./Figs/zeta_sample.png used on input line 65.
+(pdftex.def)             Requested size: 86.72267pt x 86.72322pt.
+
+<./Figs/eta_sample.png, id=190, 258.9675pt x 258.9675pt>
+File: ./Figs/eta_sample.png Graphic file (type png)
+
+<use ./Figs/eta_sample.png>
+Package pdftex.def Info: ./Figs/eta_sample.png used on input line 70.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/theta_sample.png, id=191, 258.9675pt x 258.9675pt>
+File: ./Figs/theta_sample.png Graphic file (type png)
+
+<use ./Figs/theta_sample.png>
+Package pdftex.def Info: ./Figs/theta_sample.png used on input line 75.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/iota_sample.png, id=192, 258.9675pt x 258.9675pt>
+File: ./Figs/iota_sample.png Graphic file (type png)
+
+<use ./Figs/iota_sample.png>
+Package pdftex.def Info: ./Figs/iota_sample.png used on input line 80.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/kappa_sample.png, id=193, 258.9675pt x 258.9675pt>
+File: ./Figs/kappa_sample.png Graphic file (type png)
+
+<use ./Figs/kappa_sample.png>
+Package pdftex.def Info: ./Figs/kappa_sample.png used on input line 85.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/lambda_sample.png, id=194, 258.9675pt x 258.9675pt>
+File: ./Figs/lambda_sample.png Graphic file (type png)
+
+<use ./Figs/lambda_sample.png>
+Package pdftex.def Info: ./Figs/lambda_sample.png used on input line 90.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+<./Figs/mu_sample.png, id=195, 258.9675pt x 258.9675pt>
+File: ./Figs/mu_sample.png Graphic file (type png)
+
+<use ./Figs/mu_sample.png>
+Package pdftex.def Info: ./Figs/mu_sample.png used on input line 95.
+(pdftex.def)             Requested size: 86.72267pt x 86.72401pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figs/fk_pspace.pdf, id=204, 220.11424pt x 238.50381pt>
+File: ./Figs/fk_pspace.pdf Graphic file (type pdf)
+
+<use ./Figs/fk_pspace.pdf>
+Package pdftex.def Info: ./Figs/fk_pspace.pdf used on input line 104.
+(pdftex.def)             Requested size: 216.81pt x 234.92581pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapter2.tex [5] [6 <./Figs/alpha_sample.png> <./Figs/beta_sample.png (PNG
+ copy)> <./Figs/gamma_sample.png (PNG copy)> <./Figs/delta_sample.png (PNG copy
+)> <./Figs/epsilon_sample.png> <./Figs/zeta_sample.png> <./Figs/eta_sample.png 
+(PNG copy)> <./Figs/theta_sample.png (PNG copy)> <./Figs/iota_sample.png (PNG c
+opy)> <./Figs/kappa_sample.png (PNG copy)> <./Figs/lambda_sample.png (PNG copy)
+> <./Figs/mu_sample.png (PNG copy)>] [7 <./Figs/fk_pspace.pdf>] [8
 
 ]
-<Figs/homology1d.pdf, id=213, 198.7425pt x 72.27pt>
+Chapter 2.
+[9] <Figs/homology1d.pdf, id=272, 198.7425pt x 72.27pt>
 File: Figs/homology1d.pdf Graphic file (type pdf)
- <use Figs/homology1d.pdf>
+
+<use Figs/homology1d.pdf>
 Package pdftex.def Info: Figs/homology1d.pdf used on input line 20.
 (pdftex.def)             Requested size: 86.72267pt x 31.53642pt.
-
-<Figs/homology2d.pdf, id=215, 369.38pt x 291.0875pt>
+ <Figs/homology2d.pdf, id=274, 369.38pt x 291.0875pt>
 File: Figs/homology2d.pdf Graphic file (type pdf)
- <use Figs/homology2d.pdf>
+
+<use Figs/homology2d.pdf>
 Package pdftex.def Info: Figs/homology2d.pdf used on input line 34.
 (pdftex.def)             Requested size: 260.17464pt x 205.03015pt.
-
-[8 <./Figs/homology1d.pdf> <./Figs/homology2d.pdf>]
+ [10 <./Figs/homology1d.pdf>]
 LaTeX Font Info:    Try loading font information for U+fplmbb on input line 48.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-)
-Underfull \vbox (badness 4060) has occurred while \output is active []
-
- [9]
-[10] [11] <./Figs/boundaries.pdf, id=302, 233.87375pt x 127.47626pt>
+) [11 <./Figs/homology2d.pdf>] [12] [13]
+<./Figs/boundaries.pdf, id=362, 233.87375pt x 127.47626pt>
 File: ./Figs/boundaries.pdf Graphic file (type pdf)
 
 <use ./Figs/boundaries.pdf>
-Package pdftex.def Info: ./Figs/boundaries.pdf used on input line 121.
+Package pdftex.def Info: ./Figs/boundaries.pdf used on input line 123.
 (pdftex.def)             Requested size: 216.81pt x 118.1821pt.
-) (./AppendixA.tex [12 <./Figs/boundaries.pdf>]
-Appendix A.
-) [13
 
-] [14
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14] [15 <./Figs/boundaries.pdf>]
+<./Figs/holes.pdf, id=402, 202.7575pt x 98.3675pt>
+File: ./Figs/holes.pdf Graphic file (type pdf)
+ <use ./Figs/holes.pdf>
+Package pdftex.def Info: ./Figs/holes.pdf used on input line 175.
+(pdftex.def)             Requested size: 216.81pt x 105.1876pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17 <./Figs/holes.pdf>] [18]) (./chapter3.tex [19] [20
+
+]
+Chapter 3.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 9.
+<./Figs/bplot_gamma112.pdf, id=460, 578.16pt x 382.42876pt>
+File: ./Figs/bplot_gamma112.pdf Graphic file (type pdf)
+
+<use ./Figs/bplot_gamma112.pdf>
+Package pdftex.def Info: ./Figs/bplot_gamma112.pdf used on input line 16.
+(pdftex.def)             Requested size: 208.13574pt x 137.6684pt.
+
+<./Figs/bplot_gamma128.pdf, id=461, 578.16pt x 382.42876pt>
+File: ./Figs/bplot_gamma128.pdf Graphic file (type pdf)
+
+<use ./Figs/bplot_gamma128.pdf>
+Package pdftex.def Info: ./Figs/bplot_gamma128.pdf used on input line 21.
+(pdftex.def)             Requested size: 208.13574pt x 137.6684pt.
+
+<./Figs/bplot_gamma144.pdf, id=462, 578.16pt x 385.44pt>
+File: ./Figs/bplot_gamma144.pdf Graphic file (type pdf)
+
+<use ./Figs/bplot_gamma144.pdf>
+Package pdftex.def Info: ./Figs/bplot_gamma144.pdf used on input line 27.
+(pdftex.def)             Requested size: 208.13574pt x 138.75241pt.
+
+<./Figs/bplot_gamma192.pdf, id=463, 578.16pt x 382.42876pt>
+File: ./Figs/bplot_gamma192.pdf Graphic file (type pdf)
+
+<use ./Figs/bplot_gamma192.pdf>
+Package pdftex.def Info: ./Figs/bplot_gamma192.pdf used on input line 32.
+(pdftex.def)             Requested size: 208.13574pt x 137.6684pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [22 <./Figs/bplot_gamma112.pdf> <./Figs/bplot_gamma128.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figs/bplot_gamma128.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./Figs/bplot_gamma144.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figs/bplot_gamma144.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./Figs/bplot_gamma192.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./Figs/bplot_gamma192.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
+File: ./Figs/alpha_v_grey.png Graphic file (type png)
+ <use ./Figs/alpha_v_grey.png>
+Package pdftex.def Info: ./Figs/alpha_v_grey.png used on input line 48.
+(pdftex.def)             Requested size: 108.405pt x 108.40758pt.
+
+<./Figs/gamma_v_grey.png, id=660, 258.9675pt x 258.9675pt>
+File: ./Figs/gamma_v_grey.png Graphic file (type png)
+
+<use ./Figs/gamma_v_grey.png>
+Package pdftex.def Info: ./Figs/gamma_v_grey.png used on input line 53.
+(pdftex.def)             Requested size: 108.405pt x 108.406pt.
+
+<./Figs/beta_v_grey.png, id=661, 258.9675pt x 258.9675pt>
+File: ./Figs/beta_v_grey.png Graphic file (type png)
+
+<use ./Figs/beta_v_grey.png>
+Package pdftex.def Info: ./Figs/beta_v_grey.png used on input line 58.
+(pdftex.def)             Requested size: 108.405pt x 108.406pt.
+
+<./Figs/alpha_v_thresh112.png, id=662, 215.80624pt x 215.80624pt>
+File: ./Figs/alpha_v_thresh112.png Graphic file (type png)
+
+<use ./Figs/alpha_v_thresh112.png>
+Package pdftex.def Info: ./Figs/alpha_v_thresh112.png used on input line 65.
+(pdftex.def)             Requested size: 108.405pt x 108.40337pt.
+
+<./Figs/gamma_thresh112.png, id=663, 256.96pt x 256.96pt>
+File: ./Figs/gamma_thresh112.png Graphic file (type png)
+
+<use ./Figs/gamma_thresh112.png>
+Package pdftex.def Info: ./Figs/gamma_thresh112.png used on input line 70.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+<./Figs/beta_v_thresh112.png, id=664, 258.9675pt x 258.9675pt>
+File: ./Figs/beta_v_thresh112.png Graphic file (type png)
+
+<use ./Figs/beta_v_thresh112.png>
+Package pdftex.def Info: ./Figs/beta_v_thresh112.png used on input line 75.
+(pdftex.def)             Requested size: 108.405pt x 108.406pt.
+
+<./Figs/alpha_v_thresh128.png, id=665, 215.80624pt x 215.80624pt>
+File: ./Figs/alpha_v_thresh128.png Graphic file (type png)
+
+<use ./Figs/alpha_v_thresh128.png>
+Package pdftex.def Info: ./Figs/alpha_v_thresh128.png used on input line 81.
+(pdftex.def)             Requested size: 108.405pt x 108.40337pt.
+
+<./Figs/gamma_thresh128.png, id=666, 256.96pt x 256.96pt>
+File: ./Figs/gamma_thresh128.png Graphic file (type png)
+
+<use ./Figs/gamma_thresh128.png>
+Package pdftex.def Info: ./Figs/gamma_thresh128.png used on input line 86.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+<./Figs/beta_v_thresh128.png, id=667, 258.9675pt x 258.9675pt>
+File: ./Figs/beta_v_thresh128.png Graphic file (type png)
+
+<use ./Figs/beta_v_thresh128.png>
+Package pdftex.def Info: ./Figs/beta_v_thresh128.png used on input line 91.
+(pdftex.def)             Requested size: 108.405pt x 108.406pt.
+
+<./Figs/alpha_v_thresh144.png, id=668, 215.80624pt x 215.80624pt>
+File: ./Figs/alpha_v_thresh144.png Graphic file (type png)
+
+<use ./Figs/alpha_v_thresh144.png>
+Package pdftex.def Info: ./Figs/alpha_v_thresh144.png used on input line 97.
+(pdftex.def)             Requested size: 108.405pt x 108.40337pt.
+
+<./Figs/gamma_thresh144.png, id=669, 256.96pt x 256.96pt>
+File: ./Figs/gamma_thresh144.png Graphic file (type png)
+
+<use ./Figs/gamma_thresh144.png>
+Package pdftex.def Info: ./Figs/gamma_thresh144.png used on input line 102.
+(pdftex.def)             Requested size: 108.405pt x 108.40472pt.
+
+<./Figs/beta_v_thresh144.png, id=670, 258.9675pt x 258.9675pt>
+File: ./Figs/beta_v_thresh144.png Graphic file (type png)
+
+<use ./Figs/beta_v_thresh144.png>
+Package pdftex.def Info: ./Figs/beta_v_thresh144.png used on input line 107.
+(pdftex.def)             Requested size: 108.405pt x 108.406pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (6.84306pt too wide) in paragraph at lines 116--117
+\OT1/ppl/m/n/12 Once the im-ages are thresh-olded at some value, the \OT1/ppl/m
+/sc/12 CHomP \OT1/ppl/m/n/12 method \OT1/cmtt/m/n/12 chomp-cubical
+ []
+
+[23]) (./AppendixA.tex [24] [25 <./Figs/gamma_v_grey.png> <./Figs/beta_v_grey.p
+ng> <./Figs/alpha_v_thresh112.png> <./Figs/gamma_thresh112.png> <./Figs/beta_v_
+thresh112.png> <./Figs/alpha_v_thresh128.png> <./Figs/gamma_thresh128.png> <./F
+igs/beta_v_thresh128.png> <./Figs/alpha_v_thresh144.png> <./Figs/gamma_thresh14
+4.png> <./Figs/beta_v_thresh144.png>] [26
+
+]
+Appendix A.
+) [27] [28
 
 ] (./thesis.bbl
+Missing character: There is no Å in font pplr7t!
+Missing character: There is no » in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no † in font pplr7t!
 Missing character: There is no ’ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no † in font pplr7t!
 Missing character: There is no ’ in font pplr7t!
- [15
+ [29
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+]
+Missing character: There is no Ã in font pplr7t!
+Missing character: There is no © in font pplr7t!
+Missing character: There is no Ã in font pplr7t!
+Missing character: There is no ¡ in font pplr7t!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+ [30]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 98AAE03F22E69640CE87B4C4CE9A020C;634.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+(rerunfilecheck)             Checksum: FFCADA4AA98F1EF3A25FE188B6BBBAF7;994.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 8719 strings out of 493488
- 126464 string characters out of 3141326
- 226787 words of memory out of 3000000
- 11761 multiletter control sequences out of 15000+200000
- 42024 words of font info for 126 fonts, out of 3000000 for 9000
+ 8631 strings out of 493488
+ 127000 string characters out of 3141326
+ 222484 words of memory out of 3000000
+ 11588 multiletter control sequences out of 15000+200000
+ 51451 words of font info for 152 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,14n,45p,1164b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,14n,45p,1588b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
 live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2012/texmf-
-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
-e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
-palatino/uplri8a.pfb>
-Output written on thesis.pdf (22 pages, 2530934 bytes).
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/
+type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/u
+rw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (36 pages, 9692399 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

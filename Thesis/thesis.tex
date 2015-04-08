@@ -39,10 +39,12 @@
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
 \usepackage{rotating}
-\usepackage{natbib}
+%\usepackage{natbib}
 \usepackage{ifthen}
 \usepackage{mathpazo}
-\linespread{1.10}
+\linespread{1.25}
+
+\interfootnotelinepenalty=10000 % make it so footnotes don't break over pages
 
 \graphicspath{{./Figs/}} % Set graphics path
 % Comment out the natbib line above and uncomment the following two lines to use the new 
@@ -117,6 +119,8 @@
 	\input{chapter1}
 	
 	\input{chapter2}
+	
+	\input{chapter3}
 
 	%\input{math}
 
@@ -147,7 +151,7 @@
 %\bibliographystyle{plainnat}
 % replace ``plainnat'' with the style of choice. You can refer to files in the bsts or APA 
 % subfolder, e.g. 
-\bibliographystyle{plain}  % or
+\bibliographystyle{ieeetr}  % or
 \bibliography{thesis}
  % Comment the above two lines and uncomment the next line to use biblatex-chicago.
  %\printbibliography[heading=bibintoc]

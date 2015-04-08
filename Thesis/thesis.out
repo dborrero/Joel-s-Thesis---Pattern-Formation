@@ -5,6 +5,11 @@
 \BOOKMARK [0][-]{chapter.2}{Chapter 2: Computational Homology}{}% 5
 \BOOKMARK [1][-]{section.2.1}{Image analysis}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.2}{Cubical Homology}{chapter.2}% 7
-\BOOKMARK [0][-]{appendix.A}{Appendix A: The First Appendix}{}% 8
-\BOOKMARK [1][-]{section.A.1}{Extra definitions, theorems, etc.}{appendix.A}% 9
-\BOOKMARK [0][-]{appendix*.8}{References}{}% 10
+\BOOKMARK [0][-]{chapter.3}{Chapter 3: Methods and procedures}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Obtaining Betti numbers}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.1.1}{Thresholding}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{Performing cubical homology}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.3}{Calculating entropy}{section.3.1}% 12
+\BOOKMARK [0][-]{appendix.A}{Appendix A: The First Appendix}{}% 13
+\BOOKMARK [1][-]{section.A.1}{Extra definitions, theorems, etc.}{appendix.A}% 14
+\BOOKMARK [0][-]{appendix*.13}{References}{}% 15
