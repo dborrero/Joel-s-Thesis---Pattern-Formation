@@ -30,6 +30,8 @@
 % Chemistry (chemtex), screenplays, you name it.
 % Check out CTAN to see: http://www.ctan.org/
 %%
+\usepackage{bibentry}
+\nobibliography* % setting for bibentry
 \usepackage{graphicx,latexsym} 
 \usepackage{subcaption}
 \usepackage{amssymb,amsthm,amsmath}
@@ -39,7 +41,7 @@
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
 \usepackage{rotating}
-%\usepackage{natbib}
+\usepackage{fancyvrb}
 \usepackage{ifthen}
 \usepackage{mathpazo}
 \linespread{1.25}
@@ -132,7 +134,7 @@
 	\appendix
 
 	\input{AppendixA}
-	%\input{appendixB}
+	\input{appendixB}
 
 
 %This is where endnotes are supposed to go, if you have them.

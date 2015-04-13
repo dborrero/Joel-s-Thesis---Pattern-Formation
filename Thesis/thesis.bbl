@@ -55,6 +55,32 @@ P.~Gray and S.~Scott, ``Autocatalytic reactions in the isothermal, continuous
 J.~E. Pearson, ``Complex patterns in a simple system,'' {\em Science},
   vol.~261, no.~5118, pp.~189--192, 1993.
 
+\bibitem{strogatz_2001}
+S.~Strogatz, {\em Nonlinear Dynamics and Chaos: With Applications to Physics,
+  Biology, Chemistry and Engineering}, vol.~272.
+\newblock Westview Press, 2001.
+
+\bibitem{krishan_2007}
+K.~Krishan, H.~Kurtuldu, M.~F. Schatz, M.~Gameiro, K.~Mischaikow, and
+  S.~Madruga, ``Homology and symmetry breaking in rayleigh-bénard convection:
+  Experiments and simulations,'' {\em Physics of Fluids (1994-present)},
+  vol.~19, no.~11, p.~117105, 2007.
+
+\bibitem{gameiro_2004}
+M.~Gameiro, K.~Mischaikow, and W.~Kalies, ``Topological characterization of
+  spatial-temporal chaos,'' {\em Physical Review E}, vol.~70, no.~3, p.~035203,
+  2004.
+
+\bibitem{kurtuldu_2011}
+H.~Kurtuldu, K.~Mischaikow, and M.~Schatz, ``Measuring the departures from the
+  boussinesq approximation in rayleigh–bénard convection experiments,'' {\em
+  Journal of Fluid Mechanics}, vol.~682, pp.~543--557, 2011.
+
+\bibitem{mischaikow_2006}
+A.~Szymczak, A.~Stillman, A.~Tannenbaum, and K.~Mischaikow, ``Coronary vessel
+  trees from 3d imagery: a topological approach,'' {\em Medical image
+  analysis}, vol.~10, no.~4, pp.~548--559, 2006.
+
 \bibitem{gameiro_2005}
 M.~F. Gameiro, ``Topological analysis of patterns,'' 2005.
 
@@ -66,12 +92,6 @@ T.~Kaczynski, K.~M. Mischaikow, and M.~Mrozek, {\em Computational homology},
 \bibitem{chomp}
 S.~Harker, ``Chomp,'' 2015.
 \newblock \url{http://chomp.rutgers.edu/}.
-
-\bibitem{krishan_2007}
-K.~Krishan, H.~Kurtuldu, M.~F. Schatz, M.~Gameiro, K.~Mischaikow, and
-  S.~Madruga, ``Homology and symmetry breaking in rayleigh-bénard convection:
-  Experiments and simulations,'' {\em Physics of Fluids (1994-present)},
-  vol.~19, no.~11, p.~117105, 2007.
 
 \bibitem{persistence_2008}
 H.~Edelsbrunner and J.~Harer, ``Persistent homology-a survey,'' {\em

@@ -1,2 +1,47 @@
-\chapter{The Second Appendix, for Fun}
-An appendix full of win
+\chapter{Code}
+
+\section{Gray-Scott simulation} \label{appB:gs-code}
+
+\begin{Verbatim}
+def runGS(Du, Dv, F, k, name):
+  n = 256
+
+  Z = np.zeros((n+2,n+2), [('U', np.double), ('V', np.double)])
+  U,V = Z['U'], Z['V']
+  u,v = U[1:-1,1:-1], V[1:-1,1:-1]
+  r = 20
+  u[...] = 1.0
+  U[n/2-r:n/2+r,n/2-r:n/2+r] = 0.50
+  V[n/2-r:n/2+r,n/2-r:n/2+r] = 0.25
+  u += 0.05*np.random.random((n,n))
+  v += 0.05*np.random.random((n,n))
+
+  plt.ion()
+
+  size = np.array(Z.shape)
+  dpi = 120.0
+  figsize= size[1]/float(dpi),size[0]/float(dpi)
+  fig = plt.figure(figsize=figsize, dpi=dpi, facecolor="white")
+  fig.add_axes([0.0, 0.0, 1.0, 1.0], frameon=False)
+  cmap = plt.cm.binary
+  im = plt.imshow(V, interpolation='bicubic', cmap=cmap)
+  plt.xticks([]), plt.yticks([])	
+
+  for i in xrange(25000):
+    Lu = ( U[0:-2,1:-1] + U[2: ,1:-1] + 
+       U[1:-1,0:-2] + U[1:-1,2: ] - 4*U[1:-1,1:-1] )
+    Lv = ( V[0:-2,1:-1] + V[2: ,1:-1] + 
+       V[1:-1,0:-2] + V[1:-1,2: ] - 4*V[1:-1,1:-1] )
+
+      uvv = u*v*v
+      u += (Du*Lu - uvv +  F   *(1-u))
+      v += (Dv*Lv + uvv - (F+k)*v    )
+
+    if i % 10 == 0:
+      im.set_data(V)
+      im.set_clim(vmin=0.0, vmax=0.4)
+      plt.draw()
+
+  plt.ioff()
+  plt.close()
+\end{Verbatim}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: ieeetr.bst
+Database file #1: thesis.bib
+Warning--empty journal in gameiro_2005
+You've used 22 entries,
+            1876 wiz_defined-function locations,
+            619 strings with 6678 characters,
+and the built_in function-call counts, 5929 in all, are:
+= -- 615
+> -- 173
+< -- 0
++ -- 68
+- -- 46
+* -- 391
+:= -- 814
+add.period$ -- 26
+call.type$ -- 22
+change.case$ -- 19
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 320
+empty$ -- 572
+format.name$ -- 46
+if$ -- 1509
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 24
+newline$ -- 73
+num.names$ -- 22
+pop$ -- 52
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 242
+stack$ -- 0
+substring$ -- 392
+swap$ -- 150
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 52
+width$ -- 24
+write$ -- 230
+(There was 1 warning)
