@@ -1,17 +1,18 @@
-\contentsline {chapter}{Introduction}{1}{chapter*.2}
-\contentsline {chapter}{Chapter 1: Reaction-Diffusion Systems}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Gray-Scott Model}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Numerical Solution}{5}{section.1.2}
-\contentsline {chapter}{Chapter 2: Computational Homology}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Image analysis}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Cubical Homology}{12}{section.2.2}
-\contentsline {chapter}{Chapter 3: Methods and procedures}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Obtaining Betti numbers}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Thresholding}{21}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Performing cubical homology}{23}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Calculating entropy}{23}{subsection.3.1.3}
-\contentsline {chapter}{Appendix A: The First Appendix}{27}{appendix.A}
-\contentsline {section}{\numberline {A.1}Extra definitions, theorems, {etc.}}{27}{section.A.1}
-\contentsline {chapter}{Appendix B: Code}{29}{appendix.B}
-\contentsline {section}{\numberline {B.1}Gray-Scott simulation}{29}{section.B.1}
-\contentsline {chapter}{References}{31}{appendix*.14}
+\contentsline {chapter}{Introduction}{1}{chapter*.3}
+\contentsline {chapter}{Chapter 1: Reaction-Diffusion Systems}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Gray-Scott Model}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Numerical Solution}{9}{section.1.2}
+\contentsline {chapter}{Chapter 2: Computational Homology}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Image analysis}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Cubical Homology}{13}{section.2.2}
+\contentsline {chapter}{Chapter 3: Methods and procedures}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Obtaining Betti numbers}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Thresholding}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Performing cubical homology}{24}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Calculating entropy}{26}{subsection.3.1.3}
+\contentsline {chapter}{Chapter 4: Results}{29}{chapter.4}
+\contentsline {chapter}{Appendix A: The First Appendix}{31}{appendix.A}
+\contentsline {section}{\numberline {A.1}Extra definitions, theorems, {etc.}}{31}{section.A.1}
+\contentsline {chapter}{Appendix B: Code}{33}{appendix.B}
+\contentsline {section}{\numberline {B.1}Gray-Scott simulation}{33}{section.B.1}
+\contentsline {chapter}{References}{35}{appendix*.19}

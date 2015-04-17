@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Chapter 1: Reaction-Diffusion Systems}{}% 2
 \BOOKMARK [1][-]{section.1.1}{The Gray-Scott Model}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.2}{Numerical Solution}{chapter.1}% 4
@@ -10,8 +10,9 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Thresholding}{section.3.1}% 10
 \BOOKMARK [2][-]{subsection.3.1.2}{Performing cubical homology}{section.3.1}% 11
 \BOOKMARK [2][-]{subsection.3.1.3}{Calculating entropy}{section.3.1}% 12
-\BOOKMARK [0][-]{appendix.A}{Appendix A: The First Appendix}{}% 13
-\BOOKMARK [1][-]{section.A.1}{Extra definitions, theorems, etc.}{appendix.A}% 14
-\BOOKMARK [0][-]{appendix.B}{Appendix B: Code}{}% 15
-\BOOKMARK [1][-]{section.B.1}{Gray-Scott simulation}{appendix.B}% 16
-\BOOKMARK [0][-]{appendix*.14}{References}{}% 17
+\BOOKMARK [0][-]{chapter.4}{Chapter 4: Results}{}% 13
+\BOOKMARK [0][-]{appendix.A}{Appendix A: The First Appendix}{}% 14
+\BOOKMARK [1][-]{section.A.1}{Extra definitions, theorems, etc.}{appendix.A}% 15
+\BOOKMARK [0][-]{appendix.B}{Appendix B: Code}{}% 16
+\BOOKMARK [1][-]{section.B.1}{Gray-Scott simulation}{appendix.B}% 17
+\BOOKMARK [0][-]{appendix*.19}{References}{}% 18

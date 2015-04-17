@@ -1,9 +1,43 @@
 \begin{thebibliography}{10}
 
+\bibitem{cross_greenside_2009}
+M.~Cross and H.~Greenside, {\em Pattern formation and dynamics in
+  nonequilibrium systems}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{karlsims}
+K.~Sims, ``Reaction-diffusion tutorial,'' 2013.
+
+\bibitem{kurtuldu_2011}
+H.~Kurtuldu, K.~Mischaikow, and M.~Schatz, ``Measuring the departures from the
+  boussinesq approximation in rayleigh–bénard convection experiments,'' {\em
+  Journal of Fluid Mechanics}, vol.~682, pp.~543--557, 2011.
+
 \bibitem{hui_2014}
 S.~Hui and S.~Żak, ``Discrete fourier transform based pattern classifiers,''
   {\em Bulletin of the Polish Academy of Sciences: Technical Sciences},
   vol.~62, no.~1, pp.~15--22, 2014.
+
+\bibitem{kaczynski_2007}
+T.~Kaczynski, K.~M. Mischaikow, and M.~Mrozek, {\em Computational homology},
+  vol.~157.
+\newblock Springer Science \& Business Media, 2004.
+
+\bibitem{mischaikow_2002}
+M.~Niethammer, A.~N. Stein, W.~D. Kalies, P.~Pilarczyk, K.~Mischaikow, and
+  A.~Tannenbaum, ``Analysis of blood vessel topology by cubical homology,'' in
+  {\em Proceedings of International Conference Image Processing}, vol.~2,
+  pp.~969--972.
+
+\bibitem{gameiro_2004}
+M.~Gameiro, K.~Mischaikow, and W.~Kalies, ``Topological characterization of
+  spatial-temporal chaos,'' {\em Physical Review E}, vol.~70, no.~3, p.~035203,
+  2004.
+
+\bibitem{mischaikow_2006}
+A.~Szymczak, A.~Stillman, A.~Tannenbaum, and K.~Mischaikow, ``Coronary vessel
+  trees from 3d imagery: a topological approach,'' {\em Medical image
+  analysis}, vol.~10, no.~4, pp.~548--559, 2006.
 
 \bibitem{turing_1952}
 A.~M. Turing, ``The chemical basis of morphogenesis,'' {\em Philosophical
@@ -66,28 +100,8 @@ K.~Krishan, H.~Kurtuldu, M.~F. Schatz, M.~Gameiro, K.~Mischaikow, and
   Experiments and simulations,'' {\em Physics of Fluids (1994-present)},
   vol.~19, no.~11, p.~117105, 2007.
 
-\bibitem{gameiro_2004}
-M.~Gameiro, K.~Mischaikow, and W.~Kalies, ``Topological characterization of
-  spatial-temporal chaos,'' {\em Physical Review E}, vol.~70, no.~3, p.~035203,
-  2004.
-
-\bibitem{kurtuldu_2011}
-H.~Kurtuldu, K.~Mischaikow, and M.~Schatz, ``Measuring the departures from the
-  boussinesq approximation in rayleigh–bénard convection experiments,'' {\em
-  Journal of Fluid Mechanics}, vol.~682, pp.~543--557, 2011.
-
-\bibitem{mischaikow_2006}
-A.~Szymczak, A.~Stillman, A.~Tannenbaum, and K.~Mischaikow, ``Coronary vessel
-  trees from 3d imagery: a topological approach,'' {\em Medical image
-  analysis}, vol.~10, no.~4, pp.~548--559, 2006.
-
 \bibitem{gameiro_2005}
 M.~F. Gameiro, ``Topological analysis of patterns,'' 2005.
-
-\bibitem{kaczynski_2007}
-T.~Kaczynski, K.~M. Mischaikow, and M.~Mrozek, {\em Computational homology},
-  vol.~157.
-\newblock Springer Science \& Business Media, 2004.
 
 \bibitem{chomp}
 S.~Harker, ``Chomp,'' 2015.

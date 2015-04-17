@@ -6,10 +6,15 @@
 		\label{eq:KPP}
 	\end{align}
 
-This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u$ is a generic chemical species, $d$ is a diffusion coefficient, $\nabla^2 u$ is the Laplace operator, and $r(u)$ is a general reaction term.	
+This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u$ is a generic chemical species, $d$ is a diffusion coefficient, $\nabla^2 u$ is the Laplace operator, and $r(u)$ is a general reaction term. Of course, RD systems consisting of a single chemical do not form interesting patterns since there is no reaction taking place.
 
-RD systems are interesting because their solutions can show wide variety of patterns, many of which resemble patterns of nature such as spirals, stripes, and spots. In 1952, Alan Turing suggested that RD systems of morphogens, chemicals that govern the pattern of tissue development, may be able to explain the presence of spots or stripes on an organism\rf{turing_1952}. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature~\rf{bard_1974,bard_1981,murray_1981,meinhardt_1982,young_1984,turk_1991,witkin_1991}.
-%\footnote{Among others, Bard, 1974 or 1981; Murray, 1981; Meinhardt, 1982; Young, 1984; Meinhardt and Klinger, 1987; or Turk, 1991.}
+	RD systems are interesting because their solutions can show wide variety of complex patterns, many of which resemble patterns of nature such as spirals, stripes, and spots. One drawback of the simplicity of these systems is that quantitative comparison to experimental systems is difficult. Alan Turing, one of the first to study RD systems in detail, acknowledged this in the famous opening lines of his 1952 paper\rf{turing_1952}.
+%
+\begin{quote}
+In this section a mathematical model of the growing embryo will be described. This model will be a simplification and an idealization, and consequently a falsification. It is to be hoped that the features retained for discussion are those of greatest importance in the present state of knowledge.
+\end{quote}
+%
+	Despite this concession, reaction-diffusion systems constitute an important part of the study of nonlinear dynamics today, likely due to Turing's initial investigation. Turing went on to suggest that reaction-diffusion systems of morphogens, chemicals that govern the pattern of embryo tissue development, may be able to explain the presence of spots or stripes on an organism. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature~\rf{bard_1974,bard_1981,murray_1981,meinhardt_1982,young_1984,turk_1991,witkin_1991}.
 
 \begin{figure}[h]
 	\centering
@@ -132,7 +137,7 @@ v += (Dv*Lv + uvv - (F+k)*v    )
 
 A spacial grid of $256 \times 256$ points constitutes the mesh with a time step of 1.\footnote{\rf{pearson_1993} notes no qualitative differences on mesh sizes up to $1024 \times 1024$ and time steps as low as $0.01$. Initial conditions also have little to no effect on the qualitative features of the resulting pattern after some time.} The system was initialized with the state $U=1$, $V=0$ with a $40 \times 40$ area located symmetrically in the center perturbed with $U=0.5$, $V=0.25$. This square area is then further sprinkled with 1\% random ``noise'' to catalyze the reaction. The patterns in \refFig{fig:pearson} were generated using this method and depict the concentration of chemical $U$. A plot of chemical $V$ would appear as the inverse. 
 
-For each $F, k$, the simulation is run for 25,000 time steps. Every 10th image is saved, so a total of 2,500 PNG files are produced to describe the pattern. The pattern images that are analyzed by the methods described in \refChapter{ch:methods} use a greyscale colormap like that of \refFigs{fig:alphagrey}{fig:kappagrey}.
+For each $F, k$, the simulation is run for 25,000 time steps. Every 10th image is saved, so a total of 2,500 PNG files are produced to describe the pattern. The pattern images that are analyzed by the methods described in \refChapter{ch:methods} use a greyscale colormap like that of \refFigs{fig:alphafft}{fig:kappafft}.
 
 
 
