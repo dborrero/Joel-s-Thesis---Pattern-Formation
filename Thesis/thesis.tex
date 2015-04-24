@@ -32,12 +32,13 @@
 %%
 \usepackage{bibentry}
 \nobibliography* % setting for bibentry
+\usepackage{notoccite}
 \usepackage{graphicx,latexsym} 
 \usepackage{subcaption}
 \usepackage{amssymb,amsthm,amsmath}
 \usepackage{xcolor}
 \usepackage{longtable,booktabs,setspace} 
-\usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
+%\usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
 \usepackage{rotating}
@@ -59,7 +60,7 @@
 
 \input{defthesis} % Load thesis specific macros
 
-\title{Homology of the Gray-Scott Model of Reaction-Diffusion}
+\title{Looking at Patterns: Topological Analysis of Reaction-Diffusion Models}
 \author{Joel E.~Hawkins}
 % The month and year that you submit your FINAL draft TO THE LIBRARY (May or December)
 \date{May 2015}
@@ -90,7 +91,7 @@
 
 % Acknowledgements (Acceptable American spelling) are optional
 % So are Acknowledgments (proper English spelling)
-	%\input{acknowledgements}
+	\input{acknowledgements}
 
 % The preface is optional
 % To remove it, comment it out or delete it.
@@ -104,8 +105,8 @@
 		
 % The abstract is not required if you're writing a creative thesis (but aren't they all?)
 % If your abstract is longer than a page, there may be a formatting issue.
-	%\input{abstract}
-	%\input{dedication}
+	\input{abstract}
+	\input{dedication}
 
   \mainmatter % here the regular arabic numbering starts
   \pagestyle{fancyplain} % turns page numbering back on
@@ -130,13 +131,13 @@
 
 	%\input{tablesandgraphics}
 
-	%\input{./conclusion/conclusion}
+	\input{./conclusion/conclusion}
 
 %If you feel it necessary to include an appendix, it goes here.
 	\appendix
 
 	\input{AppendixA}
-	\input{appendixB}
+	%\input{appendixB}
 
 
 %This is where endnotes are supposed to go, if you have them.

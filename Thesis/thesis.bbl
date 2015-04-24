@@ -7,19 +7,21 @@ M.~Cross and H.~Greenside, {\em Pattern formation and dynamics in
 
 \bibitem{karlsims}
 K.~Sims, ``Reaction-diffusion tutorial,'' 2013.
+\newblock Available at \url{http://www.karlsims.com/rd.html}.
 
 \bibitem{kurtuldu_2011}
 H.~Kurtuldu, K.~Mischaikow, and M.~Schatz, ``Measuring the departures from the
-  boussinesq approximation in rayleigh–bénard convection experiments,'' {\em
-  Journal of Fluid Mechanics}, vol.~682, pp.~543--557, 2011.
+  {B}oussinesq approximation in {R}ayleigh-{B}\'{e}nard convection
+  experiments,'' {\em Journal of Fluid Mechanics}, vol.~682, pp.~543--557,
+  2011.
 
 \bibitem{hui_2014}
-S.~Hui and S.~Żak, ``Discrete fourier transform based pattern classifiers,''
-  {\em Bulletin of the Polish Academy of Sciences: Technical Sciences},
-  vol.~62, no.~1, pp.~15--22, 2014.
+S.~Hui and S.~\.{Z}ak, ``Discrete {F}ourier transform based pattern
+  classifiers,'' {\em Bulletin of the Polish Academy of Sciences: Technical
+  Sciences}, vol.~62, no.~1, pp.~15--22, 2014.
 
 \bibitem{kaczynski_2007}
-T.~Kaczynski, K.~M. Mischaikow, and M.~Mrozek, {\em Computational homology},
+T.~Kaczynski, K.~M. Mischaikow, and M.~Mrozek, {\em Computational {H}omology},
   vol.~157.
 \newblock Springer Science \& Business Media, 2004.
 
@@ -36,8 +38,8 @@ M.~Gameiro, K.~Mischaikow, and W.~Kalies, ``Topological characterization of
 
 \bibitem{mischaikow_2006}
 A.~Szymczak, A.~Stillman, A.~Tannenbaum, and K.~Mischaikow, ``Coronary vessel
-  trees from 3d imagery: a topological approach,'' {\em Medical image
-  analysis}, vol.~10, no.~4, pp.~548--559, 2006.
+  trees from 3d imagery: a topological approach,'' {\em Medical {I}mage
+  {A}nalysis}, vol.~10, no.~4, pp.~548--559, 2006.
 
 \bibitem{turing_1952}
 A.~M. Turing, ``The chemical basis of morphogenesis,'' {\em Philosophical
@@ -45,7 +47,7 @@ A.~M. Turing, ``The chemical basis of morphogenesis,'' {\em Philosophical
   vol.~237, no.~641, pp.~37--72, 1952.
 
 \bibitem{bard_1974}
-J.~Bard and I.~Lauder, ``How well does turing's theory of morphogenesis
+J.~Bard and I.~Lauder, ``How well does {T}uring's theory of morphogenesis
   work?,'' {\em Journal of Theoretical Biology}, vol.~45, no.~2, pp.~501--531,
   1974.
 
@@ -60,8 +62,7 @@ J.~Murray, ``On pattern formation mechanisms for lepidopteran wing patterns and
   Society B: Biological Sciences}, vol.~295, no.~1078, pp.~473--496, 1981.
 
 \bibitem{meinhardt_1982}
-H.~Meinhardt and H.~Meinhardt, {\em Models of biological pattern formation},
-  vol.~6.
+H.~Meinhardt, {\em Models of biological pattern formation}, vol.~6.
 \newblock Academic Press London, 1982.
 
 \bibitem{young_1984}
@@ -72,18 +73,18 @@ E.~Dabelsteen, K.~Buschard, S.-I. Hakomori, and W.~W. Young, ``Pattern of
 
 \bibitem{turk_1991}
 G.~Turk, ``Generating textures on arbitrary surfaces using
-  reaction-diffusion,'' {\em SIGGRAPH Comput. Graph.}, vol.~25, no.~4,
+  reaction-diffusion,'' {\em SIGGRAPH Computer Graphics}, vol.~25, no.~4,
   pp.~289--298, 1991.
 
 \bibitem{witkin_1991}
-A.~Witkin and M.~Kass, ``Reaction-diffusion textures,'' {\em SIGGRAPH Comput.
-  Graph.}, vol.~25, no.~4, pp.~299--308, 1991.
+A.~Witkin and M.~Kass, ``Reaction-diffusion textures,'' {\em SIGGRAPH Computer
+  Graphics}, vol.~25, no.~4, pp.~299--308, 1991.
 
 \bibitem{grayscott_1984}
 P.~Gray and S.~Scott, ``Autocatalytic reactions in the isothermal, continuous
-  stirred tank reactor: Oscillations and instabilities in the system a+ 2b→
-  3b; b→ c,'' {\em Chemical Engineering Science}, vol.~39, no.~6,
-  pp.~1087--1097, 1984.
+  stirred tank reactor: Oscillations and instabilities in the system {A}+ 2{B}
+  $\rightarrow$ 3{B}; {B} $\rightarrow$ {C},'' {\em Chemical Engineering
+  Science}, vol.~39, no.~6, pp.~1087--1097, 1984.
 
 \bibitem{pearson_1993}
 J.~E. Pearson, ``Complex patterns in a simple system,'' {\em Science},
@@ -96,20 +97,25 @@ S.~Strogatz, {\em Nonlinear Dynamics and Chaos: With Applications to Physics,
 
 \bibitem{krishan_2007}
 K.~Krishan, H.~Kurtuldu, M.~F. Schatz, M.~Gameiro, K.~Mischaikow, and
-  S.~Madruga, ``Homology and symmetry breaking in rayleigh-bénard convection:
-  Experiments and simulations,'' {\em Physics of Fluids (1994-present)},
-  vol.~19, no.~11, p.~117105, 2007.
+  S.~Madruga, ``Homology and symmetry breaking in {R}ayleigh-{B}\'{e}nard
+  convection: Experiments and simulations,'' {\em Physics of Fluids}, vol.~19,
+  no.~11, p.~117105, 2007.
 
 \bibitem{gameiro_2005}
-M.~F. Gameiro, ``Topological analysis of patterns,'' 2005.
+M.~F. Gameiro, {\em Topological analysis of patterns}.
+\newblock Thesis, 2005.
+
+\bibitem{2chainz}
+{2Chainz}, ``2 {C}hainz (hairweavekiller),'' 2015.
+\newblock Available at \url{http://instagram.com/hairweavekiller/}.
 
 \bibitem{chomp}
 S.~Harker, ``Chomp,'' 2015.
-\newblock \url{http://chomp.rutgers.edu/}.
+\newblock Available at \url{http://chomp.rutgers.edu/}.
 
 \bibitem{persistence_2008}
-H.~Edelsbrunner and J.~Harer, ``Persistent homology-a survey,'' {\em
-  Contemporary mathematics}, vol.~453, pp.~257--282, 2008.
+H.~Edelsbrunner and J.~Harer, ``Persistent homology---{A} survey,'' {\em
+  Contemporary {M}athematics}, vol.~453, pp.~257--282, 2008.
 
 \bibitem{weinberger_2011}
 S.~Weinberger, ``What is... persistent homology?,'' {\em Notices AMS}, vol.~58,
@@ -118,5 +124,10 @@ S.~Weinberger, ``What is... persistent homology?,'' {\em Notices AMS}, vol.~58,
 \bibitem{grunwald_2004}
 P.~Grunwald and P.~Vitányi, ``Shannon information and kolmogorov complexity,''
   {\em arXiv preprint cs/0410002}, 2004.
+
+\bibitem{smoothlife}
+S.~Rafler, ``Generalization of {C}onway's ``{G}ame of {L}ife'' to a continuous
+  domain---{S}mooth{L}ife,'' {\em arXiv preprint arXiv:1111.1567}, 2011.
+\newblock Video available at \url{https://youtu.be/KJe9H6qS82I}.
 
 \end{thebibliography}

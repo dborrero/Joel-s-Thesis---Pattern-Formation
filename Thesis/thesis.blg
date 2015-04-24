@@ -4,46 +4,46 @@ The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: thesis.bib
 Warning--empty year in mischaikow_2002
-Warning--empty journal in gameiro_2005
-You've used 25 entries,
+Warning--empty school in gameiro_2005
+You've used 27 entries,
             1876 wiz_defined-function locations,
-            635 strings with 7157 characters,
-and the built_in function-call counts, 6608 in all, are:
-= -- 673
-> -- 205
+            647 strings with 7563 characters,
+and the built_in function-call counts, 6873 in all, are:
+= -- 707
+> -- 209
 < -- 0
-+ -- 80
-- -- 55
-* -- 434
-:= -- 907
-add.period$ -- 30
-call.type$ -- 25
-change.case$ -- 21
++ -- 83
+- -- 56
+* -- 443
+:= -- 950
+add.period$ -- 36
+call.type$ -- 27
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 353
-empty$ -- 647
-format.name$ -- 55
-if$ -- 1678
+cite$ -- 29
+duplicate$ -- 364
+empty$ -- 676
+format.name$ -- 56
+if$ -- 1743
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 27
 missing$ -- 27
-newline$ -- 83
-num.names$ -- 25
-pop$ -- 72
+newline$ -- 93
+num.names$ -- 27
+pop$ -- 80
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 264
+skip$ -- 266
 stack$ -- 0
 substring$ -- 420
-swap$ -- 160
+swap$ -- 162
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 57
-width$ -- 27
-write$ -- 255
+while$ -- 59
+width$ -- 29
+write$ -- 278
 (There were 2 warnings)
