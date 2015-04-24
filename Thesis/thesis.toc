@@ -1,4 +1,4 @@
-\contentsline {chapter}{Introduction}{1}{chapter*.5}
+\contentsline {chapter}{Introduction}{1}{chapter*.6}
 \contentsline {chapter}{Chapter 1: Reaction-Diffusion Systems}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Gray-Scott model}{6}{section.1.1}
 \contentsline {section}{\numberline {1.2}Numerical simulation}{8}{section.1.2}
@@ -15,8 +15,8 @@
 \contentsline {section}{\numberline {4.2}Transient states}{34}{section.4.2}
 \contentsline {section}{\numberline {4.3}Domain size}{36}{section.4.3}
 \contentsline {section}{\numberline {4.4}Other systems}{36}{section.4.4}
-\contentsline {chapter}{Conclusion}{39}{chapter*.29}
+\contentsline {chapter}{Conclusion}{39}{chapter*.30}
 \contentsline {chapter}{Appendix A: Supplemental Information}{41}{appendix.A}
 \contentsline {section}{\numberline {A.1}Extra definitions and theorems}{41}{section.A.1}
 \contentsline {section}{\numberline {A.2}Gray-Scott simulation code}{41}{section.A.2}
-\contentsline {chapter}{References}{45}{appendix*.30}
+\contentsline {chapter}{References}{45}{appendix*.31}
