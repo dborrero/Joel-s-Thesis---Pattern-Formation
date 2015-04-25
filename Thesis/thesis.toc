@@ -1,13 +1,14 @@
-\contentsline {chapter}{Introduction}{1}{chapter*.6}
+\contentsline {chapter}{Introduction}{1}{chapter*.7}
 \contentsline {chapter}{Chapter 1: Reaction-Diffusion Systems}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Gray-Scott model}{6}{section.1.1}
 \contentsline {section}{\numberline {1.2}Numerical simulation}{8}{section.1.2}
 \contentsline {chapter}{Chapter 2: Computational Homology}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Homology overview}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Cubical homology}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.1}Prior work}{14}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Cubical homology}{15}{section.2.2}
 \contentsline {chapter}{Chapter 3: Methods and Procedures}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Obtaining Betti numbers}{25}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Thresholding}{25}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Thresholding}{26}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Computational homology}{29}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Calculating entropy}{29}{section.3.2}
 \contentsline {chapter}{Chapter 4: Results}{33}{chapter.4}
@@ -15,8 +16,10 @@
 \contentsline {section}{\numberline {4.2}Transient states}{34}{section.4.2}
 \contentsline {section}{\numberline {4.3}Domain size}{36}{section.4.3}
 \contentsline {section}{\numberline {4.4}Other systems}{36}{section.4.4}
-\contentsline {chapter}{Conclusion}{39}{chapter*.30}
-\contentsline {chapter}{Appendix A: Supplemental Information}{41}{appendix.A}
+\contentsline {chapter}{Conclusion}{39}{chapter*.31}
+\contentsline {chapter}{Appendix A: Supplemental Math}{41}{appendix.A}
 \contentsline {section}{\numberline {A.1}Extra definitions and theorems}{41}{section.A.1}
-\contentsline {section}{\numberline {A.2}Gray-Scott simulation code}{41}{section.A.2}
-\contentsline {chapter}{References}{45}{appendix*.31}
+\contentsline {chapter}{Appendix B: Code}{43}{appendix.B}
+\contentsline {section}{\numberline {B.1}Gray-Scott simulation code}{43}{section.B.1}
+\contentsline {section}{\numberline {B.2}Entropy calculation code}{45}{section.B.2}
+\contentsline {chapter}{References}{47}{appendix*.32}

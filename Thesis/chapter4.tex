@@ -4,7 +4,7 @@
 
 Looking back at the analysis of the Gray-Scott system by Pearson, in particular \refFig{fig:fk_pspace}, the least stable regions of $F, k$ occur near the bifurcation lines\rf{pearson_1993}. We would expect that the most complex patterns with $F, k$ in this region would have higher entropy. In order to elucidate information about the dynamics of the Gray-Scott system, \refeq{eq:shannon} is calculated for all $\{ F, k \, | \, F \in [0.004, 0.08], \, k \in [0.03, 0.07] \}$ in an evenly spaced $20 \times 20$ grid (with $dF = 0.004$ and $dk \approx 0.002$) corresponding to the domain of Pearson's map of $F, k$ parameter space (\refFig{fig:fk_pspace}). The diffusion coefficients are fixed at $d_u = 0.16$, $d_v = 0.08$ for all points. There are then 400 initial values of $F,k$ for which the entropy $S$ is calculated.
 
-In order to increase the resolution, an adaptive resampling method is implemented in the following manner. For any $F, k$ pair of the original 400 points with $S > 0.5$, the entropy is calculated for the four adjacent points $(F \pm dF/2, k)$ and $(F, k \pm dk/2)$ to form a 5 point stencil around the point. This of course requires starting from the Gray-Scott simulation outlined in \refSect{ch1:gs-simulation} and performing the homology calculations for each new $F,k$ pair.
+In order to increase the resolution, an adaptive resampling method is implemented in the following manner. For any $F, k$ pair of the original 400 points with $S > 0.5$, the entropy is calculated for the four adjacent points $(F \pm dF/2, k)$ and $(F, k \pm dk/2)$ to form a 5 point stencil around the point. This of course requires starting from the Gray-Scott simulation outlined in \refsect{ch1:gs-simulation} and performing the homology calculations for each new $F,k$ pair.
 
 The results of the entropy calculation agree well with our expectations. The plot in \refFig{fig:V144_fk_rs_entropy} shows the entropy $S$ of the Gray-Scott system for chemical $V$ as $F, k$ is varied. Note that systems of higher $S$, the lighter regions of the plot, occur more densely near the dotted line which indicates the Hopf bifurcation. \refFig{fig:UV_entropy} shows the entropy $S$ over the same domain for chemicals $V$ and $U$, respectively, without adaptive sampling (only the initial 400 grid points). These too agree with Pearson's analysis and show that both chemicals $U$ and $V$ exhibit similar dynamics.
 
@@ -49,20 +49,29 @@ One consideration in these calculations is the existence of initial transient st
 
 \section{Domain size}
 
-The domain size of the simulation can have a great effect on the entropy of the system. To illustrate this, simulations of pattern $\gamma$ are run with domain sizes $n = 256,\, 512,\, \text{and } 1024$, the results of which are shown in \refTab{tab:gamma_domain}. We see that the entropy increases with larger domain size. This is simply due to the fact that there is more space which greatly increases the complexity of the pattern. \refFig{fig:gamma_domain} illustrates how varying the domain size affects the observed pattern. It is important to note that although the domain size is larger, the underlying dynamics of the system remain unchanged\rf{pearson_1993}.
-
-\begin{table}[h]
-	\caption{Entropy $S$ of pattern $\gamma$ as the domain size $n$ is varied. Intuitively, the entropy increases with the domain size since there is more space. \refFig{fig:gamma_domain} shows pattern $\gamma$ at the 2000th time step for each domain size $n$.} \label{tab:gamma_domain}
-	\centering
-	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{l | l l l }
-	n	& 256			& 512			& 1024 \\
-	\hline
-	S	& 5.43427630		& 6.86556517		& 7.62290244576
-	\end{tabular}
-\end{table}%
+The domain size of the simulation can have a great effect on the entropy of the system. To illustrate this, simulations of patterns $\gamma$, $\epsilon$, $\beta$, and $\delta$ are run with domain sizes $n = 256,\, 512,\, \text{and } 1024$, the results of which are shown in \refFig{fig:domainsize}. We see that the entropy always increases with $n$. This is simply due to the fact that there is more space which greatly increases the complexity of the pattern. The entropy grows faster for some patterns as $n$ increases. \JHedit{Some of the data here is fake. I do not yet have real $\beta$ or $\delta$ entropy for $n = 512, 1024$. I will comment on the relative rate for growth in $S$ for each pattern as $n$ increases.} \refFig{fig:gamma_domain} illustrates how varying the domain size affects the observed pattern. It is important to note that although the domain size is larger, the underlying dynamics of the system remain unchanged\rf{pearson_1993}.
 %
-\begin{figure}[h!]
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{domainsize}
+	\caption{Entropy $S$ of patterns $\gamma$, $\epsilon$, $\beta$, and $\delta$ as the domain size $n$ is increased. Intuitively, the entropy increases with the domain size since there is more space and therefore greater complexity. We notice that $S$ grows faster for some patterns as $n$ is scaled. \refFig{fig:gamma_domain} shows pattern $\gamma$ at the 2000th time step for each domain size $n$.}
+	\label{fig:domainsize}
+\end{figure}
+
+%\begin{table}[h]
+%	\caption{Entropy $S$ of pattern $\gamma$ as the domain size $n$ is varied. Intuitively, the entropy increases with the domain size since there is more space. \refFig{fig:gamma_domain} shows pattern $\gamma$ at the 2000th time step for each domain size $n$.} \label{tab:gamma_domain}
+%	\centering
+%	\renewcommand{\arraystretch}{1.5}
+%	\begin{tabular}{l | l l l }
+%	$n$				& 256			& 512			& 1024 \\
+%	\hline
+%	$S_{\gamma}$		& 5.43427630		& 6.86556517		& 7.62290244 \\
+%	$S_{\epsilon}$		& 5.13853135		& 6.63625693		& ?		\\
+%	$S_{\beta}$		& 5.27040800		& ?				& ?
+%	\end{tabular}
+%\end{table}%
+%
+\begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{gamma256-2000.png}
@@ -76,14 +85,14 @@ The domain size of the simulation can have a great effect on the entropy of the 
 		\includegraphics[width=\textwidth]{gamma1024-2000.png}
 		\caption{$n = 1024$} \label{fig:gamma1024-1000}
 	\end{subfigure}
-	\caption{The pattern $\gamma$ at the 2000th time step as the domain size is varied. The spatial complexity increases greatly as $n$ is grows. The entropy $n$ for each $n = 256,\, 512,\, 1024$ is given in \refTab{tab:gamma_domain}.} \label{fig:gamma_domain}
+	\caption{The pattern $\gamma$ at the 2000th time step as the domain size is varied. The spatial complexity increases greatly as $n$ is grows. A plot of the entropy $S$ for each $n = 256,\, 512,\, 1024$ is given in \refFig{fig:domainsize}.} \label{fig:gamma_domain}
 \end{figure}
 
 \section{Other systems}
 
 One of the virtues of computational homology is its flexibility in analyzing images. To showcase this, we can examine the homology of a YouTube video. \refFig{fig:smoothlife} shows three frames from a YouTube video of a simulation of the SmoothLife automaton\footnote{As of writing, the video is available at \url{https://youtu.be/KJe9H6qS82I}.}, a continuous spatial generalization of Conway's ``Game of Life''\rf{smoothlife}. By extracting frames from the video in the form of PNG files and thresholding at $T = 128$, we can calculate the time series of Betti numbers and from there compute the entropy. We use $N$ to indicate the total number of time steps after choosing every $dt$ frames. There are a total of 5400 frames in the video, so the frame step size $dt = 4$, for example, gives $N = 1351$ time steps when considering the entire 3m36s video length. \refTab{tab:smoothlife} gives the entropy $S$ for $dt = 3$, $dt = 4$, and $dt = 5$. The entropy is highest for $dt = 3$, $S = 6.82150758771$, which is also greater than any $S$ in the Gray-Scott entropy map in \refFig{fig:V144_fk_rs_entropy}. This is unsurprising since the SmoothLife simulation video is extremely dynamic.
-
-\begin{table}[h]
+%
+\begin{table}
 	\caption{The entropy $S$ of the SmoothLife simulation video for different step sizes and number of time steps.} \label{tab:smoothlife}
 	\centering
 	\renewcommand{\arraystretch}{1.5}

@@ -14,7 +14,7 @@ This is sometimes called the Kolmogorov-Petrovsky-Piskounov equation in which $u
 In this section a mathematical model of the growing embryo will be described. This model will be a simplification and an idealization, and consequently a falsification. It is to be hoped that the features retained for discussion are those of greatest importance in the present state of knowledge.
 \end{quote}
 %
-	Despite this concession, reaction-diffusion systems constitute an important part of the study of nonlinear dynamics today. Turing went on to suggest that reaction-diffusion systems of morphogens, chemicals that govern the pattern of embryo tissue development, may be able to explain the presence of spots or stripes on an organism. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature~\rf{bard_1974,bard_1981,murray_1981,meinhardt_1982,young_1984,turk_1991,witkin_1991}.
+	Despite this concession, reaction-diffusion systems constitute an important part of the study of nonlinear dynamics today. Turing went on to suggest that reaction-diffusion systems of morphogens, chemicals that govern the pattern of embryo tissue development, may be able to explain the presence of spots or stripes on an organism. Although the science behind animal patterns is more complicated, Turing laid the framework by which patterns form from minor perturbations of otherwise homogenous systems. Since then, many others have noted the similarity between RD patterns and patterns in nature\rf{bard_1974,bard_1981,murray_1981,meinhardt_1982,young_1984,turk_1991,witkin_1991}. \refFig{fig:witkin} provides an example of how patterns formed by reaction-diffusion systems have been used to generate natural-looking textures in the context of computer graphics.
 
 \begin{figure}[h]
 	\centering
@@ -36,7 +36,7 @@ where $V$ is converted to an inert product, $P$, which doesn't interfere with th
 		\frac{\partial u}{\partial t} & = d_u \nabla^2 u - uv^2 + F(1-u) \label{eq:gsu} \\
 		\frac{\partial v}{\partial t} & = d_v \nabla^2 v  + uv^2 - (F +k)v \label{eq:gsv}
 	\end{align}
-We see that both equations take the form of \refeq{eq:KPP} only they are coupled. For simplicity, $d_u$, $d_v$, $F$, and $k$ are taken to be constants. The first term in each equation, $d_u \nabla^2$ and $d_v \nabla^2$, are the diffusion terms. The Laplace operator, $\nabla^2$, is responsible for the diffusion of each chemical in space (like the diffusion of heat in the more familiar heat equation) while the \textit{diffusion coefficients}, $d_u$ and $d_v$, govern the diffusion rate. The $\pm uv^2$ terms are the  \textit{reaction terms} which convert $U$ into $V$; an increase in $v$ is equal to the decrease in $u$, hence $+uv^2$ in \refeq{eq:gsv}. Since $U$ will eventually get used up to generate $V$, the term $F(1-u)$ is the \textit{replenishment term} which reintroduces chemical $U$ into the system ($u$ has a maximum value of 1). Similarly, chemical $V$ would increase without limit except for the \textit{diminishment term}, $(F+k)v$, which serves to remove chemical $V$ from the system. $F$ is referred to the \textit{feed rate} and determines the rate of replenishment while $k$ is the difference between this rate and that of chemical $V$.
+We see that both equations take the form of \refeq{eq:KPP} only they are coupled. The boundary conditions are periodic and for simplicity, $d_u$, $d_v$, $F$, and $k$ are taken to be constants. The first term in each equation, $d_u \nabla^2$ and $d_v \nabla^2$, are the diffusion terms. The Laplace operator, $\nabla^2$, is responsible for the diffusion of each chemical in space (like the diffusion of heat in the more familiar heat equation) while the \textit{diffusion coefficients}, $d_u$ and $d_v$, govern the diffusion rate. The $\pm uv^2$ terms are the  \textit{reaction terms} which convert $U$ into $V$; an increase in $v$ is equal to the decrease in $u$, hence $+uv^2$ in \refeq{eq:gsv}. Since $U$ will eventually get used up to generate $V$, the term $F(1-u)$ is the \textit{replenishment term} which reintroduces chemical $U$ into the system ($u$ has a maximum value of 1). Similarly, chemical $V$ would increase without limit except for the \textit{diminishment term}, $(F+k)v$, which serves to remove chemical $V$ from the system. $F$ is referred to the \textit{feed rate} and determines the rate of replenishment while $k$ is the difference between this rate and that of chemical $V$.
 
 For some biological intuition, one can imagine the chemical reactions that occur in the development of an embryo as Turing theorized. In this case, the supply of chemicals might be the bloodstream where the replenishment and diminishment rates of the reaction are determined by the permeability of cell membranes.
 
@@ -106,7 +106,7 @@ The Gray-Scott system is particularly notable for the wide range of irregular pa
                 \caption{$\mu$}
                 \label{fig:mu_sample}
         \end{subfigure} \hfill
-        \caption{Patterns of chemical concentration $U$ identified in\rf{pearson_1993}. Each pattern, \refFig{fig:alpha_sample}---\refFig{fig:mu_sample}, is designated by a Greek letter which corresponds to the plot in \refFig{fig:fk_pspace}. Red and blue indicate $U=1$ and $U\approx 0.2$ respectively. Note that a concentration plot of chemical $V$ would appear as the inverse of $U$ with red and blue swapped.}\label{fig:pearson}
+        \caption{Patterns of chemical concentration $U$ identified in\rf{pearson_1993}. Each pattern, \refFig{fig:alpha_sample}---\refFig{fig:mu_sample}, is designated by a Greek letter which corresponds to the plot in \refFig{fig:fk_pspace}. Red and blue indicate $U=1$ and $U\approx 0.2$ respectively. Note that a concentration plot of chemical $V$ would appear as the inverse of $U$ with red and blue swapped. Video simulations of each of these pattern types are available online at \url{http://joelhawkins.info/thesis}.}\label{fig:pearson}
 \end{figure}
 
 \begin{figure}[h]
@@ -121,7 +121,7 @@ The system in \refeqs{eq:gsu}{eq:gsv} is solved by forward Euler integration of 
 	\begin{align}\label{eq:laplacian}
 		\nabla^2 u(x,y) \approx u(x-1, y) + u(x+1, y) + u(x, y-1) + u(x, y+1) - 4 u(x, y),
 	\end{align}
-and similarly for $v$. In the Python programming language, this can be easily implemented using the Numpy package as below (see \refSect{appB:gs-code} for full code).
+and similarly for $v$. In the Python programming language, this can be easily implemented using the Numpy package as below (see \refAppe{appB:gs-code} for full code).
 %
 \begin{Verbatim}[fontsize=\footnotesize,frame=leftline,framesep=5mm]
 Lu = ( U[0:-2,1:-1] + U[2: ,1:-1] + 
