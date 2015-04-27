@@ -1,8 +1,8 @@
 \begin{thebibliography}{10}
 
 \bibitem{cross_greenside_2009}
-M.~Cross and H.~Greenside, {\em Pattern formation and dynamics in
-  nonequilibrium systems}.
+M.~Cross and H.~Greenside, {\em Pattern {F}ormation and {D}ynamics in
+  {N}onequilibrium {S}ystems}.
 \newblock Cambridge University Press, 2009.
 
 \bibitem{karlsims}
@@ -41,6 +41,10 @@ A.~Szymczak, A.~Stillman, A.~Tannenbaum, and K.~Mischaikow, ``Coronary vessel
   trees from 3d imagery: a topological approach,'' {\em Medical {I}mage
   {A}nalysis}, vol.~10, no.~4, pp.~548--559, 2006.
 
+\bibitem{pearson_1993}
+J.~E. Pearson, ``Complex patterns in a simple system,'' {\em Science},
+  vol.~261, no.~5118, pp.~189--192, 1993.
+
 \bibitem{turing_1952}
 A.~M. Turing, ``The chemical basis of morphogenesis,'' {\em Philosophical
   Transactions of the Royal Society of London. Series B, Biological Sciences},
@@ -62,7 +66,7 @@ J.~Murray, ``On pattern formation mechanisms for lepidopteran wing patterns and
   Society B: Biological Sciences}, vol.~295, no.~1078, pp.~473--496, 1981.
 
 \bibitem{meinhardt_1982}
-H.~Meinhardt, {\em Models of biological pattern formation}, vol.~6.
+H.~Meinhardt, {\em Models of {B}iological {P}attern {F}ormation}, vol.~6.
 \newblock Academic Press London, 1982.
 
 \bibitem{young_1984}
@@ -86,10 +90,6 @@ P.~Gray and S.~Scott, ``Autocatalytic reactions in the isothermal, continuous
   $\rightarrow$ 3{B}; {B} $\rightarrow$ {C},'' {\em Chemical Engineering
   Science}, vol.~39, no.~6, pp.~1087--1097, 1984.
 
-\bibitem{pearson_1993}
-J.~E. Pearson, ``Complex patterns in a simple system,'' {\em Science},
-  vol.~261, no.~5118, pp.~189--192, 1993.
-
 \bibitem{strogatz_2001}
 S.~Strogatz, {\em Nonlinear Dynamics and Chaos: With Applications to Physics,
   Biology, Chemistry and Engineering}, vol.~272.
@@ -102,8 +102,9 @@ K.~Krishan, H.~Kurtuldu, M.~F. Schatz, M.~Gameiro, K.~Mischaikow, and
   no.~11, p.~117105, 2007.
 
 \bibitem{gameiro_2005}
-M.~F. Gameiro, {\em Topological analysis of patterns}.
-\newblock Thesis, 2005.
+M.~F. Gameiro, {\em Topological {A}nalysis of {P}atterns}.
+\newblock Ph{D} dissertation, 2005.
+\newblock School of Mathematics, Georgia Institute of Technology.
 
 \bibitem{2chainz}
 {2Chainz}, ``2 {C}hainz (hairweavekiller),'' 2015.
@@ -122,8 +123,8 @@ S.~Weinberger, ``What is... persistent homology?,'' {\em Notices AMS}, vol.~58,
   no.~01, pp.~36--39, 2011.
 
 \bibitem{grunwald_2004}
-P.~Grunwald and P.~Vitányi, ``Shannon information and kolmogorov complexity,''
-  {\em arXiv preprint cs/0410002}, 2004.
+P.~Grunwald and P.~Vitányi, ``Shannon information and {K}olmogorov
+  complexity,'' {\em arXiv preprint cs/0410002}, 2004.
 
 \bibitem{smoothlife}
 S.~Rafler, ``Generalization of {C}onway's ``{G}ame of {L}ife'' to a continuous

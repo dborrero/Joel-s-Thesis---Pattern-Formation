@@ -2,11 +2,11 @@
 
 As large amounts of data become available, it becomes more difficult to determine what information is relevant. There are, of course, high and low-level approaches. A high-level approach like a fingerprint scanner or handwriting recognition might be the end-goal of one's analysis, but lower-level approaches like homology look at the geometric makeup of an object and are often a requisite step toward building higher-level processes. Homology is one way of analyzing \textit{local} properties in order to extract information about \textit{global} phenomena.
 
-	At this time, computational homology is a relatively new field and its application in physics has only recently been explored\rf{krishan_2007,gameiro_2004,kurtuldu_2011,mischaikow_2006}. Although homology is a field of algebraic topology, it combines the mathematics of several other fields including combinatorics and computation. The mathematical formalism behind homology is difficult to grasp so only the relevant information will be detailed in \refsect{sect:homologyoverview}. For the interested reader, \refsect{ch2:cubicalhomology} on cubical homology presents a more thorough discussion of the mathematical background of the topic.
+	At this time, computational homology is a relatively new field and its application in physics has only recently been explored\rf{krishan_2007,gameiro_2004,kurtuldu_2011,mischaikow_2006}. Although homology is a field of algebraic topology, it combines the mathematics of several other fields including combinatorics and computation. The mathematical formalism behind homology is difficult to grasp so only the relevant information will be detailed in \refsect{sect:homologyoverview}. For the interested reader, \refsect{ch2:cubicalhomology} presents a more thorough discussion of the mathematical background of cubical homology.
 		
 \section{Homology overview} \label{sect:homologyoverview}
 
-Homology is concerned with the enclosed \textit{holes} and connected \textit{pieces} in topological spaces. This vague statement might lead one to ask what exactly we mean by ``connected pieces'' and ``holes''. To gain an intuitive understanding, examine \refFig{fig:reedgriffin} in which the connected pieces (the black segments) and holes (the white enclosed areas) of the Reed Griffin have been colored in. While it may seem easy enough to simply count these structures as I have done, the goal of homology is to provide a formal mathematical description of these geometric structures regardless of the complexity or spatial dimension. Although the formalism of homology is difficult to understand, the relevant concepts are easily illustrated through examples. It's best to think about this in one dimension first.
+At its root, homology is concerned with the enclosed \textit{holes} and connected \textit{pieces} in topological spaces. This vague statement might lead one to ask what exactly we mean by ``connected pieces'' and ``holes''. To gain an intuitive understanding, examine \refFig{fig:reedgriffin} in which the connected pieces (the black segments) and holes (the white enclosed areas) of the Reed Griffin have been colored in. While it may seem easy enough to simply count these structures as I have done, the goal of homology is to provide a formal mathematical description of these geometric structures regardless of the complexity or spatial dimension. Although the formalism of homology is difficult to understand, the relevant concepts are easily illustrated through examples. It's best to think about this in one dimension first.
 %
 \begin{figure}[h]
 	\centering
@@ -33,7 +33,7 @@ Homology is concerned with the enclosed \textit{holes} and connected \textit{pie
 	\label{eq:homology1d}
 \end{align}
 %
-where $\mathbf{Z}$ is the group of integers. The homology pairs a topological space (e.g.\ $X$ and $Y$) with an \textit{abelian group}, a set of elements combined with operations that satisfy five axioms: closure, associativity, identity, invertibility, and commutativity (a full definition can be found in~\ref{ap:abeliandef}). Notice, however, that the \textit{zeroth homology group} of $Y$ is $\mathbf{Z}^2$; the rank of the group, $2$, is what accounts for the two distinct pieces, but more on this later.
+where $\mathbf{Z}$ is the group of integers. The homology pairs a topological space (e.g.\ $X$ and $Y$) with an \textit{abelian group}, a set of elements combined with operations that satisfy five axioms: closure, associativity, identity, invertibility, and commutativity (a full definition can be found in~\refAppe{ap:abeliandef}). Notice, however, that the \textit{zeroth homology group} of $Y$ is $\mathbf{Z}^2$; the rank of the group, $2$, is what accounts for the two distinct pieces, but more on this later.
 
 \begin{figure}[h]
 	\begin{center}
@@ -73,7 +73,7 @@ Since there is a \textit{zeroth homology group}, it makes sense that there would
 
 Spaces $X_a$, $X_b$, and $X_c$ have a \textit{zeroth homology group} of $\mathbf{Z}$ since there is a single connected component while $X_d$ has $\mathbf{Z^2}$ to account for the two disconnected lines. In each space, a connected component forms an enclosed area (\ie the squares). The square in \refFig{fig:homology2d-a} forms a hole, a region completely enclosed by the black line. Figures~\ref{fig:homology2d-a}, \ref{fig:homology2d-c}, and \ref{fig:homology2d-d} each contain one hole. The shading in Figures~\ref{fig:homology2d-b}, \ref{fig:homology2d-c}, and \ref{fig:homology2d-d} indicates that the hole is filled and is thus no longer counted. Just as the \textit{zeroth homology group} is concerned with connected segments, the \textit{first homology group} is concerned with holes.
 
-The terms ``piece'' and ``hole'' are informal. Formally, we could say that the $k^{th}$ homology group, $H_k(X)$, represents the group of $k$-dimensional holes of $X$ where a $k = 0$ hole is merely the gap between two components (\eg $Y$ in \refFig{fig:homology1d}). As I alluded to earlier, the the rank of the homology group (\eg the rank $2$ of $\mathbf{Z}^2$ in \refeq{eq:homology1d}) represents the \emph{number} of $k$ dimensional holes.\footnote{The ``dimension'' of $k$ is different from the dimension of the topological space. To describe the dimension of a space such as a cube in $\mathbf{R^3}$, call it $X$, we write $\dim X = 3$. Structures of lower dimensions, such as the square faces that make up the cube, are \textit{embedded} in the higher dimensional space $X$. For $k \geq \dim X$, $H_k(X) = 0$ since there are no structures embedded in a space with a higher dimension than that of the space itself. It is important to note that if we could place the topological spaces shown in \refFig{fig:homology2d}, which live in $\mathbf{R^2}$ on the page, into 3-dimensional space, $\mathbf{R^3}$, this would not change the homology groups.} This is called the \textit{Betti number} $\beta_k$. Indeed, Betti numbers are non-zero for all $k < d$ where $d$ is the dimension of the topological space. Betti numbers are the most important feature of the homology in this thesis since they assign a nice mathematical quantity to an otherwise visual characteristic of a topological space. \refFig{fig:kappaV_color} gives the Betti numbers for pattern $\kappa$; there is clearly one single connected component, shown in black, and nine enclosed holes which have been colored in. Thus, $\beta_0 = 1$ and $\beta_1 = 9$.
+The terms ``piece'' and ``hole'' are informal. Formally, we could say that the $k^{th}$ homology group, $H_k(X)$, represents the group of $k$-dimensional holes of $X$ where a $k = 0$ hole is merely the gap between two components (\eg $Y$ in \refFig{fig:homology1d}). As I alluded to earlier, the the rank of the homology group (\eg the rank $2$ of $\mathbf{Z}^2$ in \refeq{eq:homology1d}) represents the \emph{number} of $k$ dimensional holes.\footnote{The ``dimension'' of $k$ is different from the dimension of the topological space. To describe the dimension of a space such as a cube in $\mathbb{R}^3$, call it $X$, we write $\dim X = 3$. Structures of lower dimensions, such as the square faces that make up the cube, are \textit{embedded} in the higher dimensional space $X$. For $k \geq \dim X$, $H_k(X) = 0$ since there are no structures embedded in a space with a higher dimension than that of the space itself. It is important to note that if we could place the topological spaces shown in \refFig{fig:homology2d}, which live in $\mathbb{R}^2$ on the page, into 3-dimensional space, $\mathbb{R}^3$, this would not change the homology groups.} This is called the \textit{Betti number} $\beta_k$. Indeed, Betti numbers are non-zero for all $k < d$ where $d$ is the dimension of the topological space. Betti numbers are the most important feature of the homology in this thesis since they assign a nice mathematical quantity to an otherwise visual characteristic of a topological space. \refFig{fig:kappaV_color} gives the Betti numbers for pattern $\kappa$; there is clearly one single connected component, shown in black, and nine enclosed holes which have been colored in. Thus, $\beta_0 = 1$ and $\beta_1 = 9$.
 %
 \begin{figure}
 	\centering
@@ -85,11 +85,13 @@ The terms ``piece'' and ``hole'' are informal. Formally, we could say that the $
 
 Although the literature surrounding homology is relatively little, the techniques described here have been used to characterize complex patterns. Prior work by Gameiro and Mischaikow examines the 1D Gray-Scott system as well as the 2D FitzHugh-Nagumo model\rf{gameiro_2004}. Using a time series of Betti numbers, they are able to calculate the maximal Lyapunov exponent (LE) which, if positive, implies existence of spatial-temporal chaos. They compare their computation of the LE using a time series of Betti numbers to that obtained through standard methods. The results are compelling for two reasons; one is that there is near-perfect agreement between the LE obtained through the Betti time series and standard methods which confirms that using homology data is an acceptable approach. The other is that, due to its topological features, the homology data is also able to capture spatial chaos which the LE calculated through the standard method does not (it only measures temporal chaos).
 
-The work done by Gameiro, Mischaikow, and others provides a wonderful backdrop and inspiration for the analysis of the 2D Gray-Scott model in this thesis. The computational method for calculating homology data of this system is outlined in \refChapter{ch:methods}. In \refsect{sect:entropy}, I describe how this can be used to derive information about the dynamics of a system.
+The work done by Gameiro, Mischaikow, and others provides a wonderful backdrop and inspiration for the analysis of the 2D Gray-Scott model in this thesis. The computational method for calculating homology data of this system is outlined in \refChapter{ch:methods}. In \refsect{sect:entropy}, I describe how this can be used to derive information about the complexity of a system's dynamics.
 
 \section{Cubical homology} \label{ch2:cubicalhomology}
 
-In cubical homology, topological spaces are represented as a collection of cubes. This thesis is concerned with the interpretation of digital images as topological spaces. Digital images are quite literally a collection of two-dimensional cubes, \textit{pixels}, thus a homology that examines these objects is a natural environment for examining the output of a computer simulation. In this section, I present a brief mathematical description of cubical homology that closely follows that of\rf{gameiro_2005} and\rf{kaczynski_2007}. By skipping this section, one would miss some of the interesting subtleties of homology theory but a thorough understanding is by no means essential to this thesis. We'll start by defining elementary cubes, which make up the building blocks for the theory. It is important to keep in mind here that one of the fundamental ideas in homology theory is to connect topological objects (\eg connected pieces and holes) to algebraic objects.
+In cubical homology, topological spaces are represented as a collection of cubes. This thesis is concerned with the interpretation of digital images as topological spaces. Digital images are quite literally a collection of two-dimensional cubes, \textit{pixels}, thus a homology that examines these objects is a natural environment for examining the output of computer simulations. In this section, I present a brief mathematical description of cubical homology that closely follows that of\rf{gameiro_2005} and\rf{kaczynski_2007}. By skipping this section, one would miss some of the interesting subtleties of homology theory but a thorough understanding is by no means essential to the understanding of this thesis.
+
+We'll start by defining elementary cubes, which make up the building blocks for the theory. It is important to keep in mind here that one of the fundamental ideas in homology theory is to connect topological objects (\eg connected pieces and holes) to algebraic objects.
 
 \begin{defn}
 	An \textit{elementary interval} is an interval $I \subset \R$ of the form
@@ -100,10 +102,19 @@ In cubical homology, topological spaces are represented as a collection of cubes
 \end{defn}
 
 \begin{defn}
-	An \textit{elementary cube} $Q$ is a finite product of elementary intervals, $$ Q = I_1 \times I_2 \times \ldots \times I_d \subset \R^d $$ where each $I_i$ is an elementary interval. We denote the set of all elementary cubes in $\R^d$ as $\Kd$. \\
+	An \textit{elementary cube} $Q$ is a finite cartesian product of elementary intervals, $$ Q = I_1 \times I_2 \times \ldots \times I_d \subset \R^d $$ where each $I_i$ is an elementary interval. We denote the set of all elementary cubes in $\R^d$ as $\Kd$. \\
 	The set of all elementary cubes, $\K$, is
 	$$ \K := { \bigcup_{d=1}^{\infty} } \Kd . $$
 \end{defn}
+
+Two elementary cubes are shown in \refFig{fig:elemcubes}. Cube $Q_1 = [1,2] \times [1,2]$ and $Q_2 = [3,4] \times [1]$. Both $Q_1$ and $Q_2$ are subsets of $\mathbb{R}^2$ even though one interval of $Q_2$ is degenerate.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{elemcubes}
+	\caption{Two elementary cubes $Q_1, \, Q_2 \subset \mathbb{R}^2.$ The cube $Q_1 = [1,2] \times [1,2]$ and $Q_2 = [3,4] \times [1]$. Notice that $Q_2 \subset \mathbb{R}^2$ is different from the cube $[3,4] \subset \mathbb{R}$ as they are subsets of different spaces.}
+	\label{fig:elemcubes}
+\end{figure}
 
 \begin{defn}
 	Let $Q = I_1 \times I_2 \times \ldots \times I_d \subset \R^d$ be an elementary cube. The \textit{embedding number} of $Q$ is defined to be $d$ which we denote by $\emb{Q}$. Interval $I_i$ is the $i\ith$ \textit{component} of $Q$ and is written $\mathord{I_i(Q)}$. The \textit{dimension} of $Q$ is defined as the number of nondegenerate components in $Q$ and denoted $\dim{Q}$. We refer to an elementary cube $Q$ with $\dim{Q} = k$ as a \textit{k-cube} and denote
@@ -151,14 +162,14 @@ For an elementary cube $Q$, we refer to $\Qhat$ as its \textit{dual elementary c
 \end{prop}
 %
 \begin{proof}
-	See\rf{kaczynski_2007}.
+	See Kaczynski \etal\rf{kaczynski_2007}.
 \end{proof}
 
 Proposition~\ref{prop:bijection} allows us invoke the inverse of $\phi$ to go from an algebraic object, the elementary chain $\Qhat$, to a topological set, $Q$. The following definition uses the algebra that we have built up to give the elementary \textit{k-chains} algebraic structure.
 %
 \begin{defn}
 	The group $C_k^d$ of \textit{k-dimensional chains} (or \textit{k-chains}) of $\R^d$ is the free abelian group (see \refAppe{ap:freeabeliandef}) generated by the elementary chains of $\Kd_k$. Thus the elements of $C_k^d$ are functions $c : \Kd_k \rightarrow \Z$ such that $c(Q) = 0$ for all but a finite number of elementary cubes $Q \in \Kd_k$. In particular, the set of elementary $k$-chains $\wh{\Kd_k}$ is the basis for $C_k^d$. By the same notation used in \refAppe{ap:abeliandef},
-	$$ C_k^d := \Z(\Kd_k) $$
+	$$ C_k^d := \Z(\Kd_k). $$
 	If $ c \in C_k^d$, then $\dim c := k$.
 \end{defn}
 
@@ -167,7 +178,7 @@ Proposition~\ref{prop:bijection} allows us invoke the inverse of $\phi$ to go fr
 \begin{figure}[h]
 	\begin{center}
 	\includegraphics[width=0.5\columnwidth]{boundaries.pdf}
-	\caption{\label{fig:boundaries} The left picture has a topological boundary given by $\{ A \} \cup \{ B \}$ (or $[A, B]$) and therefore does not form a loop (a 0-cube). The picture on the right, however, does not have a boundary (since we can't pick a definite start and end point) and therefore forms a loop (a 1-cube).}
+	\caption{\label{fig:boundaries} The line segment (left) has a topological boundary given by $\{ A \} \cup \{ B \}$ (or $[A, B]$) and therefore does not form a loop (a 0-cube). The square (right), however, does not have a boundary (since we can't pick a definite start and end point) and therefore forms a loop (a 1-cube).}
 	\end{center}
 \end{figure}
 
@@ -178,7 +189,7 @@ The set of elementary chains forms a basis for $C_k^d$, thus we would like to ea
 	$$ \langle c_1, c_2 \rangle := \sum_{i=1}^m \alpha_i \beta_i . $$
 \end{defn}
 
-The astute reader will notice that this definition restricts us to describing a $k$-chain only in terms of $k$-dimensional cubes. We know, however, that cubes may be decomposed into lower dimensional faces. For example, the right picture in \refFig{fig:boundaries} may be constructed from the four edges (or 1D faces) $[A,B]$, $[B,C]$, $[C,D]$, and $[D,A]$, and we would like to be able to write all $k$-chains in terms of lower-dimensional faces. This will be essential when the boundary operator is defined in \ref{defn:bdop} and provides the motivation for the following definition and proposition.
+The astute reader will notice that this definition restricts us to describing a $k$-chain only in terms of $k$-dimensional cubes. We know, however, that cubes may be decomposed into lower dimensional faces. For example, the square in \refFig{fig:boundaries} may be constructed from the four edges (or 1D faces) $[A,B]$, $[B,C]$, $[C,D]$, and $[D,A]$, and we would like to be able to write all $k$-chains in terms of lower-dimensional faces. This will be essential when the boundary operator is defined in \ref{defn:bdop} and provides the motivation for the following definition and proposition.
 
 \begin{defn}
 	Given two elementary cubes $P \in \K_{k_1}^{d_1} $ and $ Q \in \K_{k_2}^{d_2} $, let
@@ -194,7 +205,7 @@ The astute reader will notice that this definition restricts us to describing a 
 \end{prop}
 %
 \begin{proof}
-	See\rf{kaczynski_2007}.
+	See Kaczynski \etal\rf{kaczynski_2007}.
 \end{proof}
 
 \begin{defn} \label{defn:bdop}
@@ -235,7 +246,7 @@ We can now say that holes are characterized by chains that have a boundary equal
 \end{prop}
 
 \begin{proof}
-	See\rf{kaczynski_2007}.
+	See Kaczynski \etal\rf{kaczynski_2007}.
 \end{proof}
 %
 This leads to the following definition.
@@ -253,7 +264,7 @@ An extremely important property of the boundary operator is defined in the follo
 \end{prop}
 
 \begin{proof}
-	See\rf{kaczynski_2007}.
+	See Kaczynski \etal\rf{kaczynski_2007}.
 \end{proof}
 
 It should make sense that if we are to take the boundary of a topological object, the boundary itself should have a lower embedding number (the boundary of a square, $k_1=2$, is made up of lines, $k_2=1$). It may not seem immediately intuitive that the boundary of a boundary is zero; the boundary of a disk is a circle which has boundary equal to zero; the boundary of a baseball is its spherical shell which also has a zero boundary. At this point we are tantalizingly close to defining homology---but wait! The following descriptions will be helpful in a moment.
@@ -279,11 +290,11 @@ We can now say more precisely what we wanted before; we want to characterize hol
 	$$ H_k(X) := Z_k(X) / B_k(X). $$
 	The homology of $X$ is the collection of all homology groups of $X$. The shorthand for this is
 	$$ H_{*}(X) := \{ H_k(X) \}_{k \in \Z} .$$
-\end{defn}
+\end{defn}%
 
 For a cubical set $X \subset \R^d$ we can show that, for $i = 0, \ldots, d-1$, 
 $$H_i(X) = \Z^{\beta_i} \oplus \Z_{b_1} \oplus \Z_{b_2} \oplus \cdots \oplus \Z_{b_k},$$ 
-where $\beta_i$ is a nonnegative integer, $\Z_b$ is the group of integers modulo $b$, $b_i > 1$ provided $k > 0$, and $b_i$ divides $b_{i+1}$ for $i \in \{ 1, 2, \ldots, k-1 \}$ provided $k > 1$. For $ i \geq d$ we have $H_i(X) = 0$.
+where $\beta_i$ is a nonnegative integer, $\Z_b$ is the group of integers modulo $b$, $b_i > 1$ provided $k > 0$, and $b_i$ divides $b_{i+1}$ for $i \in \{ 1, 2, \ldots, k-1 \}$ provided $k > 1$. The $\oplus$ operator denotes a direct sum. For $ i \geq d$ we have $H_i(X) = 0$.
 
 Integer $\beta_i$ is known as the $i\ith$ \textit{Betti number} of $X$ and $b_1, b_2, \ldots, b_k$ are the \textit{torsion coefficients} of $H_i(X)$. In general, $\beta_i := \text{rank}( H_i( X ) )$. Spaces with dimension $d \leq 3$ do not have torsion coefficients, just $H_i(X) = \Z^{\beta_i}$, so we need not worry about them for our purposes\rf{gameiro_2005}.
 
@@ -293,6 +304,6 @@ This is certainly a great abstraction from what we started with before, connecte
 	An ordinary bike tube (a torus) has $\beta_0 = 1$, the single connected piece of rubber; $\beta_1 = 1$, one hole in the center; and $\beta_2 = 1$, the hollow cavity inside the tube.
 \end{exmp}
 
-The mathematical tour-de-force that we've just undertaken might seem like major overkill. After all, here we are merely concerned with counting geometric structures that could theoretically be eyeballed (tedious as that may be). I argue, however, that the homology maintains some nice features for us. For one, it provides a mathematically rigorous definition of the structures in question. Furthermore, the homology of any structure is unchanged in any higher-dimensional space (\eg~the homology groups of an empty square are the same in $\mathbf{R^2}$ as in $\mathbf{R^3}$ or $\mathbf{R^4}$ for that matter). Homology is not concerned with size or shape of any object either; the homology of a coffee mug is identical to that of \refFig{fig:homology2d-a}. The theory reduces the amount of information required to describe an object to a few topological quantities which may be difficult to grasp visually. Analysis of higher dimensional data, such as a 4D construction of medical imaging data, which would require a great amount of thought to assess visually, is completely feasible through cubical homology\rf{kaczynski_2007}. Due to its dimension-independent formulation, the applications of cubical homology are limited only by the ability to construct sensical topological information. In the following chapter, we shall see how the homology theory described here can be applied to analyze patterns of the Gray-Scott system.
+The mathematical tour-de-force that we've just undertaken might seem like major overkill. After all, here we are merely concerned with counting geometric structures that could theoretically be eyeballed (tedious as that may be). I argue, however, that the homology maintains some nice features for us. For one, it provides a mathematically rigorous definition of the structures in question. Furthermore, the homology of any structure is unchanged in any higher-dimensional space (\eg~the homology groups of an empty square are the same in $\mathbb{R}^2$ as in $\mathbb{R}^3$ or $\mathbb{R}^4$ for that matter). Homology is not concerned with size or shape of any object either; the homology of a coffee mug is identical to that of \refFig{fig:homology2d-a}. The theory reduces the amount of information required to describe an object to a few topological quantities which may be difficult to grasp visually. Analysis of higher dimensional data, such as a 4D construction of medical imaging data, which would require a great amount of thought to assess visually, is completely feasible through cubical homology\rf{kaczynski_2007}. Due to its dimension-independent formulation, the applications of cubical homology are limited only by the ability to construct sensical topological information. In the following chapter, we shall see how the homology theory described here can be applied to analyze patterns of the Gray-Scott system.
 
 
